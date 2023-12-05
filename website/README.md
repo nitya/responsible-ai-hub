@@ -8,7 +8,6 @@
  * The site is hosted on [GitHub Pages](https://aka.ms/rai-hub/website) and auto-deployed with a [GitHub Actions](https://github.com/features/actions) workflow.
  * It uses the [docusaurus-plugin-clarity](https://www.npmjs.com/package/docusaurus-plugin-clarity) to configure [Clarity](https://clarity.microsoft.com/) for analytics - see settings in [docusaurus.config.js](https://docusaurus.io/docs/api/docusaurus-config#scripts) - delete Clarity ID to turn off telemetry.
 
-
 ## Useful Commands
 
 In each case, the command should be run from the `website` folder.
