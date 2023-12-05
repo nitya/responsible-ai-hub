@@ -1,25 +1,19 @@
 ---
-id: welcome
+id: Introduction
 sidebar_position: 1
+slug: /welcome
 ---
 
-# 1. Introduction
+AI innovations are growth at a rapid pace.  The the way we design AI systems is poised to transform businesses and society. However, AI systems developed without careful consideration can have unintended harmful consequences. This workshop gives participants hands-on learning on how to use the Responsible AI to debug their machine learning model in order to improve the model's performance to be more fair, inclusive, safe & reliable, and transparent. After completing this workshop, participants will learn tools and best practices of using responsible AI to produce AI solutions that are less harmful to society and more trustworthy.
 
-This workshop is for participants to get hands-on learning on how to use the Responsible AI dashboard to debug their machine learning model in order to improve the model's performance to be more fair, inclusive, safe & reliable, and transparent.  The workshop will cover how to use Error Analysis, Model Overview, Data Analysis and Feature Importance in end-to-end machine learning life cycles.  After completing this workshop, participant will learn best practices of using Azure Responsible AI dashboard to produce AI solution that are less harmful to society and more trustworthy.
+[Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai) is a framework that helps AI developers to identify and mitigate risks and harms that could impact people, businesses, and society. This provides practices that are necessary to help AI developers address compliance regulations and harms that could impact threat to human rights; risk of physical or psychological injury; or life opportunities. 
 
-# Data
-We will be using the [UCI's Diabetes 130-US hospitals for years 1999–2008](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008#) dataset for this workshop.  The original UCI dataset is large with ~101,700 records. So, we reduced the data sample size and used the SMOTE technique to balance out the minority class during the data cleansing process for our training. We dropped the columns that had a huge number of missing values or were not relevant to a diabetic patient returning back to the hospital within 30 days. For example, having 20+ columns of whether or not a patient took a certain diabetic medication (*rosiglitazon*, *citoglipton*, *metformin* etc.) had no correlation on a patient's return to the hospital. A patient's *Weight* has impact on a patients return, however more than 30% of the data had missing values. The patient's form of payment does not have impact on the return to the hospital, so we dropped the *Payer_Code*. However, we added the *Medicare* and *Medicaid* column to indicate whether or not the Payer_Code for the hospital bill used a subsidize government medical assistance for low-income patients. This is to help us understand if there are any socioeconomic gaps in the diabetic patient demographic.
+![](/img/tutorial/rai-holder2.png)
 
-The dataset also contains an indicator of whether diabetic patients that were discharged form a hospital ended up being readmitted back to a hospital in less than 30 days or not.  The pretrained model that you'll be using in this workshop is a classification model for the ***Diabetes Hospital Readmission*** use case.  It will classify if a diabetic patient will be *Readmitted* or *Not Readmitted* back to a hospital in < 30 days after they have been discharged.
+Using practical tools and practices that help empower data scientists and AI developers to easily integrate responsible AI into their everyday development to address AI risks.  
 
-# Objectives
-* Work with an interactive UI dashboard to debug and mitigate model issues faster
-* Produce AI systems that are more reliable and trustworthy
-* Provide AI model explanability for compliance regulations or auditors better
-* Helpful for decision-makers and stakeholders to be able to understand and make well informed decisions based on the model's outcomes and behavior
+![](/img/tutorial/rai-placeholder1.png)
 
-## Duration
-Let's uncover the benefits of using Azure Machine Learning's **Responsible AI dashboard in 2 hour**.
+Building society's trust in your AI systems
 
-## Tip
-To preserve your Azure credits, be sure to [shutdown your compute](/docs/stop-compute) instance at the end of the workshop.
+![](/img/tutorial/rai-build-trust.png)

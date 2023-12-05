@@ -9,7 +9,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const callToAction = "Hands-on Workshops 👉🏽";
+  const callToAction = "Get Started 👉🏽";
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">

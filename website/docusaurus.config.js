@@ -61,9 +61,22 @@ const config = {
             sidebarId: 'mySidebar',
             position: 'left',
             label: '1. Dashboard',
+          },          
+          {
+            type: 'doc',
+            docId: 'azure-content-safety/cs-intro',
+            position: 'left',
+            label: '2. Content Safety',
           },
+          {
+            type: 'doc',
+            docId: 'azure-prompt-flow/pf-intro',
+            position: 'left',
+            label: '3. Prompt Flow',
+          }, 
+          //{to: 'blog', label: 'Blog', position: 'left'},         
           {            
-            href: 'https://github.com/azure/responsible-ai-hub',
+            href: 'https://github.com/ruyakubu/rai-dashboard-workshop',
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
