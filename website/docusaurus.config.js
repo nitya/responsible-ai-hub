@@ -9,8 +9,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 
-  title: 'Responsible AI Training',
-  tagline: 'Go From Principles To Practice',
+  title: 'Responsible AI Developer Hub',
+  tagline: 'Skill up on Concepts, Tools & Practices',
   url: 'https://azure.github.io',
   baseUrl: '/',    // '/responsible-ai-hub/',
 

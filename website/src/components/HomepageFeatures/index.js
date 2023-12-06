@@ -47,12 +47,10 @@ function Feature({ Svg, title, description, topic, topiclink, link }) {
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <a href={link} target="_blank">
-        <div className="text--center padding-horiz--md">
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </div>
-      </a>
+      <div className="text--center padding-horiz--md">
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
       <div className="text--center padding-horiz--md">
         <a href={topiclink} target="_blank">
           <span className="badge badge--primary margin-horiz--xs">{topic}</span>
