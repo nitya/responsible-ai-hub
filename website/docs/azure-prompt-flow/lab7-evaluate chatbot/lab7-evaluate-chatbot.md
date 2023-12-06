@@ -40,7 +40,7 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 2. Select the **Flow name** you created earlier (e.g. dental_chatbot).
 3. On the **embed_question** node, click on the **connection** textbox and select your AzureOpenAI connection name.
 4. On the **prompt_answer** node, click on the **connection** drop-down menu and select your AzureOpenAI connection name.  Then select yoar AzureOpenAI **deployment_name**.
-5. In the **Output** section, click on the **Add output**. Then enter **context** for the **Name** and *${search_vector_index.output}* for the **value**.
+5. In the **Output** section, click on the **Add output**. Then enter **context** for the **Name** and `*${search_vector_index.output}*` for the **value**.
 6. Click on **Save** button on the top right-hand side of the screen.
 
 ## Evaluate chatbot flow
@@ -54,7 +54,7 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 4.	Enter **Name** on the Add new data pane (e.g. Contoso-Dental). Then **Browse** to the workshop repo directory and select the **contoso-dental.csv** file from the */data* folder.   
 5.	Click on the **Add** button.   A preview of the top 5 rows of the data should be displayed at the bottom of the page.
 8.	Under Input mapping, enter the open and close brackets **[]** for the value of **chat_history**.
-9.	Click in the Value textbox for the **question** field and enter *${data.question}*.
+9.	Click in the Value textbox for the **question** field and enter `*${data.question}*`.
 
 ![](/img/tutorial/evaluate-input-flow.png)
  
@@ -73,9 +73,9 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 ```bash
 gpt_groundedness,gpt_retrieval_score,gpt_relevance  
 ```
-16. Enter *${run.outputs.answer}* for the **answer** field.
-17. Click on the Data Source textbox and enter *${data.question}* for the **question** field. 
-18.	Enter *${run.outputs.context}* for the **documents**field.
+16. Enter `*${run.outputs.answer}*` for the **answer** field.
+17. Click on the Data Source textbox and enter `*${data.question}*` for the **question** field. 
+18.	Enter `*${run.outputs.context}*` for the **documents**field.
 
 ![](/img/tutorial/pf-rag-eval-input.png)
 

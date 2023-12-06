@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -12,10 +12,10 @@ const config = {
   title: 'Responsible AI Training',
   tagline: 'Go From Principles To Practice',
   url: 'https://azure.github.io',
-  baseUrl:   '/',    // '/responsible-ai-hub/',
+  baseUrl: '/',    // '/responsible-ai-hub/',
 
-  organizationName: 'azure', 
-  projectName: 'responsible-ai-hub', 
+  organizationName: 'azure',
+  projectName: 'responsible-ai-hub',
   deploymentBranch: 'gh-pages',
   favicon: 'img/favicon.ico',
 
@@ -49,34 +49,48 @@ const config = {
 
       image: 'img/responsible-ai-card.jpg',
 
+
+      docs: {
+        sidebar: {
+          hideable: false,
+          autoCollapseCategories: true,
+        },
+      },
+
       navbar: {
         title: 'Responsible AI',
+
         logo: {
           alt: 'RAI Dashboard Logo',
           src: 'img/logo.png',
         },
+
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'mySidebar',
+            type: 'dropdown',
+            label: 'Workshops',
             position: 'left',
-            label: '1. Dashboard',
-          },          
+            items: [ 
+              {
+                type: 'docSidebar',
+                sidebarId: 'dashboardSidebar',
+                label: '1. Responsible AI Dashboard',
+              },
+       
+              {
+                type: 'docSidebar',
+                sidebarId: 'contentSafetySidebar',
+                label: '2. Azure Content Safety',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'promptFlowSidebar',
+                label: '3. Azure Prompt Flow',
+              },
+            ],
+          },      
           {
-            type: 'doc',
-            docId: 'azure-content-safety/cs-intro',
-            position: 'left',
-            label: '2. Content Safety',
-          },
-          {
-            type: 'doc',
-            docId: 'azure-prompt-flow/pf-intro',
-            position: 'left',
-            label: '3. Prompt Flow',
-          }, 
-          //{to: 'blog', label: 'Blog', position: 'left'},         
-          {            
-            href: 'https://github.com/ruyakubu/rai-dashboard-workshop',
+            href: 'https://github.com/azure/responsible-ai-hub',
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -88,16 +102,16 @@ const config = {
         style: 'light',
         links: [
           {
-            label: `RAI Collection`,
+            label: `Learn Collection`,
             to: "https://aka.ms/rai-hub/collection",
           },
           {
-            label: `AI Hub`,
+            label: `AI Developer Hub`,
             to: "https://learn.microsoft.com/ai/",
           },
           {
-            label: '@AzureAdvocates',
-            to: 'https://twitter.com/azureadvocates',
+            label: 'Azure AI Discord',
+            to: 'https://discord.gg/yrTeVQwpWm',
           },
           {
             label: "Privacy Statement ",
@@ -114,7 +128,42 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
+      /* Banner Announcements */
+      announcementBar: {
+        id: 'Responsbile AI Hub Banner',
+        content:
+          '<a href="https://github.com/azure/responsible-ai-hub"><b> Give us a Star on GitHub</b></a> ▪️ <a href="https://aka.ms/rai-hub/collection"><b>Browse Our Learn Collection</b></a> ',
+        backgroundColor: '#e3a359',
+        textColor: '#000000',
+        isCloseable: false,
+      },
+
+      /* Clarity Config */
+      clarity: {
+        ID: "k0s1hzc31a", // Instructions below
+      }
+
     }),
+
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. 
+        steps: 2, // #images b/w min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+    [
+      'docusaurus-plugin-clarity',
+      {
+      }
+    ],
+  ],
+
 };
 
 module.exports = config;

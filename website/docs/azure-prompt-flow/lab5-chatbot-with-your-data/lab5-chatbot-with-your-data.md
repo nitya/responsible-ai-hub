@@ -27,7 +27,7 @@ We'll be using the following tools:
 
 4.	Select the **AzureOpenAIconnection** name you created earlier.
 5.	Select **Text-embedding-ada-002** deployment name you created earlier
-6.	For **Input**, select *${inputs.question}*.  This should create a node under the input node.
+6.	For **Input**, select `*${inputs.question}*`.  This should create a node under the input node.
 
 ![](/img/tutorial/embed-section.png)
  
@@ -36,7 +36,7 @@ We'll be using the following tools:
 1.	On the **TOOLS** toolbar, select the **Vector Index Lookup** tool by clicking on plus icon **+**.  
 2.	Enter **Name** for the node (e.g. search_vector_index).  This will generate a new **Vector Index Lookup** section at the bottom of the flow.
 3.	For **Path**, copy and paste the Datastore URI you retrieve earlier for the vector index.
-4.	Select the embedding output as the **query** field (e.g. *${embed_question.output}*).
+4.	Select the embedding output as the **query** field (e.g. `*${embed_question.output}*`).
 15.	Leave default value for **top_k**.
 
 **NOTE**: Feel free move the nodes around to make it easier to view the flow.
@@ -49,6 +49,7 @@ We'll be using the following tools:
 2.	Enter a **Name** for the node (e.g. generate_prompt).  This will generate a new Prompt section at the bottom of the flow.
 3. Click on the **.jinja2** link to open the prompt editor.  This will open a new tab in the editor.
 4.	Delete all the text in the file.  Then, copy the following text in the Prompt textbox:
+
 ```bash
 system:
 You are an AI system designed to answer questions. When presented with a scenario, you must reply with accuracy to inquirers' inquiries.  If there is ever a situation where you are unsure of the potential answers, simply respond with "I don't know.  
@@ -69,9 +70,9 @@ user:
 
 5.	Close the .jinja2 prompt editor tab.  Then return to the flow.dag.yaml tab.
 6. In your prompt section of the flow, you would see the prompt flow automatically generated the input fields from the placeholder fields in your .jinja2 file.
-7.	Select ${inputs.question} for the **question** field.
-8.	For **contexts**, select ${Search_Vector_Index.output}.
-9.	Select the ${inputs.chat_history} for **chat_history**
+7.	Select `${inputs.question}` for the **question** field.
+8.	For **contexts**, select `${Search_Vector_Index.output}`.
+9.	Select the `${inputs.chat_history}` for **chat_history**
 
 ![](/img/tutorial/prompt-inputs.png)
 
@@ -92,5 +93,5 @@ user:
 ```
 5.	Close the **.jinja2** prompt editor tab.  Then return to the **flow.dag.yaml** tab.
 6. In your chat section of the flow, you would see that prompt flow automatically generated a **prompt_response** input fields from the placeholder fields in your .jinja2 file.
-7.	In the *prompt_response* value, select ${generate_prompt.output}.
+7.	In the *prompt_response* value, select `${generate_prompt.output}`.
 
