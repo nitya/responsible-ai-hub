@@ -94,13 +94,18 @@ const config = {
                 label: '3. Azure Prompt Flow',
               }
             ],
-          },  
+          }, 
           {
-            type: 'doc',
-            docId: 'References',
-            label: 'More Tutorials',
+            type: 'dropdown',
+            label: 'Collections',
             position: 'right',
-          },    
+            items: [ 
+              {
+                to: '/collections',
+                label: '1. Responsible AI Dashboard',
+              },
+            ],
+          },   
           {
             href: 'https://github.com/azure/responsible-ai-hub',
             position: "right",
