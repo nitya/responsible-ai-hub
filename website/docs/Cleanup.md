@@ -1,9 +1,9 @@
 ---
-sidebar_position: 7
-slug: /stop-compute
+sidebar_position: 97
+slug: /cleanup
 ---
 
-# 7. Shutdown
+# Cleanup
 
 Be sure to shutdown the compute instance at the end of this workshop so you do not run out of credits.
 

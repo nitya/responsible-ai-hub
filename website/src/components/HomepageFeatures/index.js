@@ -6,8 +6,8 @@ const FeatureList = [
   {
     title: 'Responsible AI Dashboard',
     Svg: require('@site/static/img/workshop-dashboard.svg').default,
-    link: 'docs/welcome',
-    topic: 'Workshop Repo',
+    link: 'docs/rai-dashboard-ms-learn',
+    topic: 'Get The Code',
     topiclink: 'https://aka.ms/rai-hub/dashboard-workshop',
     description: (
       <>
@@ -18,8 +18,8 @@ const FeatureList = [
   {
     title: 'Azure Content Safety',
     Svg: require('@site/static/img/workshop-safety.svg').default,
-    link: 'docs/welcome',
-    topic: 'Workshop Repo',
+    link: 'docs/content-safety-overview',
+    topic: 'Get The Code',
     topiclink: 'https://aka.ms/rai-hub/content-safety-workshop',
     description: (
       <>
@@ -30,8 +30,8 @@ const FeatureList = [
   {
     title: 'Azure ML Prompt Flow',
     Svg: require('@site/static/img/workshop-prompt.svg').default,
-    link: 'docs/welcome',
-    topic: 'Workshop Repo',
+    link: 'docs/prompt-flow-overview',
+    topic: 'Get The Code',
     topiclink: 'https://aka.ms/rai-hub/prompt-flow-workshop',
     description: (
       <>
@@ -55,8 +55,8 @@ function Feature({ Svg, title, description, topic, topiclink, link }) {
         <a href={topiclink} target="_blank">
           <span className="badge badge--primary margin-horiz--xs">{topic}</span>
         </a>
-        <a href={link} target="_blank">
-          <span className="badge badge--danger margin-horiz--xs">Tutorial</span>
+        <a href={link}>
+          <span className="badge badge--danger margin-horiz--xs">Launch Tutorial</span>
         </a>
       </div>
     </div>

@@ -1,9 +1,9 @@
 ---
-sidebar_position: 8
+sidebar_position: 98
 slug: /references
 ---
 
-# 8. References
+# Tutorials
 
 To get a deeper understanding of all the Responsible AI dashboard features and components, refer to the following tutorials series:
 

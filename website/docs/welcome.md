@@ -1,8 +1,10 @@
 ---
-id: Introduction
+id: Welcome
 sidebar_position: 1
 slug: /welcome
 ---
+
+# Introduction
 
 AI innovations are growth at a rapid pace.  The the way we design AI systems is poised to transform businesses and society. However, AI systems developed without careful consideration can have unintended harmful consequences. This workshop gives participants hands-on learning on how to use the Responsible AI to debug their machine learning model in order to improve the model's performance to be more fair, inclusive, safe & reliable, and transparent. After completing this workshop, participants will learn tools and best practices of using responsible AI to produce AI solutions that are less harmful to society and more trustworthy.
 

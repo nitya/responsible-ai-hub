@@ -67,6 +67,12 @@ const config = {
 
         items: [
           {
+            type: 'doc',
+            docId: 'Welcome',
+            label: 'Welcome',
+            position: 'left',
+          },
+          {
             type: 'dropdown',
             label: 'Workshops',
             position: 'left',
@@ -86,9 +92,15 @@ const config = {
                 type: 'docSidebar',
                 sidebarId: 'promptFlowSidebar',
                 label: '3. Azure Prompt Flow',
-              },
+              }
             ],
-          },      
+          },  
+          {
+            type: 'doc',
+            docId: 'References',
+            label: 'More Tutorials',
+            position: 'right',
+          },    
           {
             href: 'https://github.com/azure/responsible-ai-hub',
             position: "right",
@@ -102,8 +114,12 @@ const config = {
         style: 'light',
         links: [
           {
-            label: `Learn Collection`,
+            label: `Responsible AI Collection`,
             to: "https://aka.ms/rai-hub/collection",
+          },
+          {
+            label: `Responsible AI Toolbox`,
+            to: "https://responsibleaitoolbox.ai/",
           },
           {
             label: `AI Developer Hub`,
