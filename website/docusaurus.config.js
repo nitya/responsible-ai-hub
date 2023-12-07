@@ -67,11 +67,24 @@ const config = {
 
         items: [
           {
-            type: 'doc',
-            docId: 'Welcome',
-            label: 'Welcome',
+            type: 'dropdown',
+            label: 'Start Here',
             position: 'left',
-          },
+            items: [ 
+              {
+                to: '/no-azure',
+                label: 'No Azure Account',
+              },
+              {
+                to: '/student-azure',
+                label: 'Student Azure Account',
+              },
+              {
+                to: '/pro-azure',
+                label: 'Pro Azure Account',
+              },
+            ],
+          }, 
           {
             type: 'dropdown',
             label: 'Workshops',

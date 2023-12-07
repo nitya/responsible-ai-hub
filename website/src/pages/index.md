@@ -1,7 +1,7 @@
 ---
 id: Welcome
 sidebar_position: 1
-slug: /welcome
+slug: /
 ---
 
 # Introduction
