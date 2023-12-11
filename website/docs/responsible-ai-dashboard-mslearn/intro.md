@@ -41,9 +41,9 @@ We’ll be using the [UCI's Diabetes 130-US hospitals for years 1999–2008](htt
 ### 3. Duration
 Let's uncover the benefits of using Azure Machine Learning's Responsible AI dashboard in 1 hour.
 
-### 4. Hands-on Lab
+### 4. Get Started
 
-- Click [here](https://learn.microsoft.com/en-us/training/modules/train-model-debug-with-responsible-ai-dashboard-azure-machine-learning/) to get started
+- 🚀 Let's [get started](https://aka.ms/mslearn-responsibleai-dashboard)!
 
 ![MS Learn](/img/tutorial/rai-dash-ms-learn.png)
 
