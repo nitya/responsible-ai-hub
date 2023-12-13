@@ -99,7 +99,7 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'contentSafetySidebar',
-                label: '2. Azure Content Safety',
+                label: '2. Azure Content Safety for OpenAI',
               },
               {
                 type: 'docSidebar',
