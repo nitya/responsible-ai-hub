@@ -12,7 +12,7 @@ const config = {
   title: 'Responsible AI Developer Hub',
   tagline: 'Skill up on Concepts, Tools & Practices',
   url: 'https://azure.github.io',
-  baseUrl: '/',    // '/responsible-ai-hub/',
+  baseUrl: '/responsible-ai-hub/',
 
   organizationName: 'azure',
   projectName: 'responsible-ai-hub',
