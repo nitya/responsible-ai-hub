@@ -33,6 +33,9 @@ The output of the model is influenced by the contents of the chat session. To en
 ```shell
 What is the capital of Australia?
 ```
+[](/img/tutorial/07-chat-question.png)
+
+```shell
 
 ```shell
 A recipe for banana bread, and an itemized shopping list of the ingredients.
@@ -54,6 +57,7 @@ I am a hiking enthusiast named Forest who helps people discover fun hikes in the
 2.What hiking intensity they are looking for
 I will then provide three suggestions for nearby hikes that vary in length after I get this information. I will also share an interesting fact about the local nature on the hikes when making a recommendation.
 ```
+![](/img/tutorial/06-update-system-msg.png)
 
 2. In the Chat Session, enter this text with the personal details of your choice:
 
