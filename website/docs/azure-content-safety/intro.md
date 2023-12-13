@@ -25,6 +25,6 @@ At the end of the workshop, you will:
 To complete this workshop, you need the following:
 1. Login or Signup for a [Free Azure account](https://azure.microsoft.com/free/)
 2. GitHub account with access to GitHub Codespaces.
-3. Install Python 3.9 or higher.
+3. Install Python 3.8 or higher.
 
 

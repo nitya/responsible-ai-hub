@@ -11,16 +11,16 @@ When dealing with text, it is either user or application generated. With Generat
 
 Let’s explore how the Content Safety API handles text.
 
-1.	Open the *text_content_safety.ipynb* notebook.
+1.	Open the *no-openai/text_content_safety.ipynb* notebook.
 2.	Click on **Select Kernel** on the upper right of the notebook.
 3.	Select **Python Environments** in the kernel drop-down menu.
 
 ![](/img/tutorial/cs-select-kernel-python-env.png)
 
-4.	Choose the conda **Python 3.8** kernel.
+4.	Choose the conda **(py38_env) Python 3.8** kernel.
 5.	Click **Run All** to execute the *text_content_safety.ipynb* notebook.
 6.	Verify that all cells ran successfully.
-7.	In cell #3, the input_text set to *“You are stupid.”*
+7.	In cell #3, the input_text set to *“You're studid”*
 8.	In the last cell, you’ll see that the Content Safety API found the input text to be “Hate” content with a severity of 2.
 9.	Now try changing the input_text to your own text and see what the output will be.
 

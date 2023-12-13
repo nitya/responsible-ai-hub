@@ -1,7 +1,7 @@
 ---
-id: cs-codespaces-lab2'
-title: 'Lab# 2: Launch GitHub codespaces project'
-sidebar_position: 2
+id: cs-codespaces-lab1'
+title: 'Lab# 1: Launch GitHub codespaces project'
+sidebar_position: 1
 slug: /content-safety-codespaces
 ---
 

@@ -11,7 +11,7 @@ There are tons of applications and social medial sites that enable users to uplo
 
 In this lab, we will see examples of how one image is clearing inappropriately and another image can be subjective.
 
-1.	Open the *text_content_safety.ipynb* notebook.
+1.	Open the *no-openai/image_content_safety.ipynb* notebook.
 2.	Click on **Select Kernel** on the upper right of the notebook.
 3.	Select **Python Environments** in the kernel drop-down menu.
 4.	Choose the conda **Python 3.8** kernel.
