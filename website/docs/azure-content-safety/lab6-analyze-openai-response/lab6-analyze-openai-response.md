@@ -5,7 +5,7 @@ sidebar_position: 6
 slug: /content-safety-analyze-openai
 ---
 
-![](/img/tutorial/cs-image-filter.png)
+![](/img/tutorial/open-ai-chatGPT.png)
 
 OpenAI produces dynamic responses where one response to the same inquiry does not alway yeild the same output.  In addition, we cannot always anticipate the risks that are in the response that can could be harmful to users.  Azure Content Safety help you to add content filter and guardrails for categories such as sexual derogative content, violence, or harmful content. 
 
