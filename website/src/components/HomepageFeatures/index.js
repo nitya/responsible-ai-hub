@@ -11,19 +11,19 @@ const FeatureList = [
     topiclink: 'https://aka.ms/rai-hub/dashboard-workshop',
     description: (
       <>
-        The Responsible AI dashboard provides a single interface to help you implement Responsible AI in practice effectively and efficiently.
+        This hands-on lesson teaches how to debug and mitigate a ML model issues using error analysis, data explorer, model explainability, model performance and fairness assessment. 
       </>
     ),
   },
   {
-    title: 'Azure Content Safety',
+    title: 'Azure Content Safety for OpenAI',
     Svg: require('@site/static/img/workshop-safety.svg').default,
     link: 'docs/content-safety-overview',
     topic: 'Get The Code',
     topiclink: 'https://aka.ms/rai-hub/content-safety-workshop',
     description: (
       <>
-        Azure AI Content Safety detects harmful user-generated and AI-generated content in applications and services
+        This is a hands-on lesson on prompt engineering, detecting jailbreaks, offensive or inappropriate content in text and images quickly and efficiently. 
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
     topiclink: 'https://aka.ms/rai-hub/prompt-flow-workshop',
     description: (
       <>
-        Prompt Flow is a tool designed to streamline the entire development cycle of AI apps powered by Large Language Models (LLMs).
+        This is a hands-on lesson on creating executable flows that link LLMs, vector embeddings, prompts, and Python tools through a visualized graph.  In addition, grounding LLM solutions and evaluating performance through large-scale testing.
       </>
     ),
   },
