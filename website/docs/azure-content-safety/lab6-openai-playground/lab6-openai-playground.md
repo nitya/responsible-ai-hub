@@ -11,7 +11,9 @@ slug: /openai-playground
 Bring your own laptop - make sure your laptop is fully charged!
 You will need a valid email - to receive the access-key to use our Azure OpenAI playground.
 You will need a modern browser - to access both the tutorial and playground.
-You may need a GitHub account - if you want to post to our Discussions board. :::
+You may need a GitHub account - if you want to post to our Discussions board. 
+
+:::
 
 For this workshop we are going to use an interface that is build on top of the Azure Open AI Service. In this playground you have the opportunity to play with the models without the need to deploy resources in Azure.
 
@@ -38,8 +40,6 @@ The output of the model is influenced by the contents of the chat session. To en
 What is the capital of Australia?
 ```
 [](/img/tutorial/07-chat-question.png)
-
-```shell
 
 ```shell
 A recipe for banana bread, and an itemized shopping list of the ingredients.
