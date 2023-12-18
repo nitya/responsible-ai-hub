@@ -11,7 +11,7 @@ const FeatureList = [
     topiclink: 'https://aka.ms/rai-hub/dashboard-workshop',
     description: (
       <>
-        This hands-on lesson teaches how to debug and mitigate a ML model issues using error analysis, data explorer, model explainability, model performance and fairness assessment. 
+        This hands-on lesson teaches how to debug and mitigate a ML model issues using error analysis, data analysis, model explainability, model performance and fairness assessment. 
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
     topiclink: 'https://aka.ms/rai-hub/prompt-flow-workshop',
     description: (
       <>
-        This is a hands-on lesson on creating executable flows that link LLMs, vector embeddings, prompts, and Python tools through a visualized graph.  In addition, grounding LLM solutions and evaluating performance through large-scale testing.
+        This is a hands-on lesson on creating executable flows that link LLMs, vector embeddings, prompts, and Python tools through a visualized graph. As well as, evaluating performance through large-scale testing.
       </>
     ),
   },
