@@ -23,7 +23,7 @@ const FeatureList = [
     topiclink: 'https://aka.ms/rai-hub/content-safety-workshop',
     description: (
       <>
-        This is a hands-on lesson on prompt engineering, detecting jailbreaks, offensive or inappropriate content in text and images quickly and efficiently. 
+        This is a hands-on lesson on prompt engineering, detecting jailbreaks, offensive or inappropriate content in text and images quickly and efficiently. Includes identifying sexual, violent, hate, and self-harm content.
       </>
     ),
   },
