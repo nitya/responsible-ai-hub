@@ -5,6 +5,8 @@ sidebar_position: 1
 slug: /build-workshop-enviroment
 ---
 
+As you work on creating Flows, it may have dependencies, services or external resources that you would need to connect to; such as OpenAI, Content Safety AI or your custom LLM models.  It enables users to add and manage connection to these resources as well as a their connection secrets (e.g. name, api key, api_endpoint, or type).  
+
 To get started, you can use a pre-built development environment. **Click the button below** to open the repo in GitHub Codespaces, and then continue the readme!
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/rai-prompt-flow-workshop?quickstart=1)  
@@ -50,19 +52,30 @@ az group create --name <resource-group-name> --location <region-name>
 ```shell
 az configure --defaults group=<resource-group-name>
 ```
-6. If you **do not ** have an Azure OpenAI available in your subscription, complete the step.
+6. If you **do not** have an Azure OpenAI available in your subscription, complete the step.
 
 Otherwise, run the following command.
 ```shell
-az deployment group create --name rai-workshop --template-file main.bicep 
+az deployment group create --name rai-workshop --template-file main.bicep
 ```
+
+NOTE: For AzureMLname, use only lowercase letters and numbers.  For example, raiworkshop1234.  Save for environment name.
+
 7. See the environment variables for your resources.
 ```shell
 bash setenv.sh
 ```
+
+8. Copy both the deployment name for the *gpt-35-turbo* model and *text-embedding-ada-002* keys and endpoints.
+
 The setup creates the following Azure resources:
 
 -	Create Azure OpenAI
 -	Add deployment OpenAI models
 -	Create Azure ML workspace
--	Create Azure ML compute
+
+9.  Run the following command to create a connect to Azure OpenAI:
+
+```shell
+pf connection create --file connection/openai.yml --set api_key=your_api_key --name open_ai_conn
+```
