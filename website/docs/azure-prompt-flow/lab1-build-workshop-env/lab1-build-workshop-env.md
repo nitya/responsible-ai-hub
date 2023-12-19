@@ -23,28 +23,42 @@ When the environment is ready, a Visual Studio Code editor will open.
 
 ![](/img/tutorial/vsc-prompt.png)
 
-First, set the python environment to Python 3.8
+1. At the commmand prompt, set the python environment to Python 3.8
 
 ```shell
 conda activate py38_env
 ```
 
-At the commmand prompt, authenticate to Azure by running the following command:
+2. Authenticate to Azure by running the following command:
 
 ```shell
 az login --use-device-code
 ```
 
-Enter the code provided in the browser to authenticate to Azure.  Once authenticated, you need to set your Azure subscription.
+Enter the code provided in the browser to authenticate to Azure.  
+
+3. Once authenticated, you need to set your Azure subscription.
 
 ```shell
 az account set --subscription <your-subscription-id>
 ```
-
-Now, we are ready to run the setup create the Azure resources, run the following command:
-
+4.	Create a resource group in the region closest to you.
 ```shell
-bash setup.sh
+az group create --name <resource-group-name> --location <region-name>
+```
+5. Set the resource group as the default resource group for the Azure CLI.
+```shell
+az configure --defaults group=<resource-group-name>
+```
+6. If you **do not ** have an Azure OpenAI available in your subscription, complete the step.
+
+Otherwise, run the following command.
+```shell
+az deployment group create --name rai-workshop --template-file main.bicep 
+```
+7. See the environment variables for your resources.
+```shell
+bash setenv.sh
 ```
 The setup creates the following Azure resources:
 
@@ -52,5 +66,3 @@ The setup creates the following Azure resources:
 -	Add deployment OpenAI models
 -	Create Azure ML workspace
 -	Create Azure ML compute
--	Create Azure ML custom environment
--	Launch AzureML studio
