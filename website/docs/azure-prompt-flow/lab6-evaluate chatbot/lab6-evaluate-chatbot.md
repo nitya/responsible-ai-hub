@@ -1,7 +1,7 @@
 ---
-id: pf-evaluate-chatbot-lab7'
-title: 'Lab# 7: Evaluate chatbot'
-sidebar_position: 4
+id: pf-evaluate-chatbot-lab6'
+title: 'Lab# 6: Evaluate chatbot'
+sidebar_position: 6
 slug: /evaluate-chatbot
 ---
 

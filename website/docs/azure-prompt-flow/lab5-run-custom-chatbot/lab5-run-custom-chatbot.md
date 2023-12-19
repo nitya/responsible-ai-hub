@@ -1,7 +1,7 @@
 ---
-id: pf-run-custom-chatbot-lab6'
-title: 'Lab# 6: Run custom chatbot'
-sidebar_position: 4
+id: pf-run-custom-chatbot-lab5'
+title: 'Lab# 5: Run custom chatbot'
+sidebar_position: 5
 slug: /run-custom-chatbot
 ---
 

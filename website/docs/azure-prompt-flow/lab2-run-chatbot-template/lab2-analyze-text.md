@@ -1,7 +1,7 @@
 ---
-id: pf-run-chatbot-template-lab3'
-title: 'Lab# 3: Run chatbot template'
-sidebar_position: 3
+id: pf-run-chatbot-template-lab2'
+title: 'Lab# 2: Run chatbot template'
+sidebar_position: 2
 slug: /run-chatbot-template
 ---
 
