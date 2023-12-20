@@ -25,10 +25,10 @@ When the environment is ready, a Visual Studio Code editor will open.
 
 ![](/img/tutorial/vsc-prompt.png)
 
-1. At the commmand prompt, set the python environment to Python 3.8
+1. At the commmand prompt, set the python environment to Python 3.9
 
 ```shell
-conda activate py38_env
+conda activate py39_env
 ```
 
 2. Authenticate to Azure by running the following command:
@@ -48,6 +48,12 @@ az account set --subscription <your-subscription-id>
 ```shell
 az group create --name <resource-group-name> --location <region-name>
 ```
+
+**NOTE**.  Find an Azure region that is closest to you by running this (e.g. ***westus***,  ***eastus*** ***westeurope***, ***southafricanorth***,... etc).  
+```shell
+az account list-locations --query "[*].name" --out tsv | sort
+```
+
 5. Set the resource group as the default resource group for the Azure CLI.
 ```shell
 az configure --defaults group=<resource-group-name>
@@ -65,17 +71,10 @@ NOTE: For AzureMLname, use only lowercase letters and numbers.  For example, rai
 ```shell
 bash setenv.sh
 ```
-
-8. Copy both the deployment name for the *gpt-35-turbo* model and *text-embedding-ada-002* keys and endpoints.
-
 The setup creates the following Azure resources:
 
 -	Create Azure OpenAI
 -	Add deployment OpenAI models
 -	Create Azure ML workspace
 
-9.  Run the following command to create a connect to Azure OpenAI:
 
-```shell
-pf connection create --file connection/openai.yml --set api_key=your_api_key --name open_ai_conn
-```
