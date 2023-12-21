@@ -28,7 +28,7 @@ When the environment is ready, a Visual Studio Code editor will open.
 1. At the commmand prompt, set the python environment to Python 3.9
 
 ```shell
-conda activate py39_env
+conda activate py3_11_env
 ```
 
 2. Authenticate to Azure by running the following command:

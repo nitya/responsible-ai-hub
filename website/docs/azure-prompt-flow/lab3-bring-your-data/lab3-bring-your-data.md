@@ -14,7 +14,7 @@ To upload custom data for this lab, you need to use the Contoso Dentist clinic d
 
 ![](/img/tutorial/kernel-select.png)
 
-3.	Select **Python Environment** from the drop-down menu.  Then pick the conda **Python 3.8** kernel.
+3.	Select **Python Environment** from the drop-down menu.  Then pick the conda **py3_11_env (Python 3.11)** kernel.
 4. Before running the notebook, you need to replace the following placeholders with values with your Azure OpenAI connection details:
 * **os.environ["AOAI_CONNECTION_NAME"]**:  Replace with your prompt flow connection name you created above.
 * **os.environ["AOAI_API_KEY"]**:  Replace with your Azure OpenAI API key.
