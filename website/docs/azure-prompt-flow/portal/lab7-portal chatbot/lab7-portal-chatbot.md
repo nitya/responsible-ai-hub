@@ -220,7 +220,7 @@ We'll be using the following tools:
 5.	Click the **Add** button.
 6.	Select the **AzureOpenAIconnection** name you created earlier.
 7.	Select **Text-embedding-ada-002** deployment name you created earlier
-8.	For **Input**, select *${inputs.question}*.  This should create a node under the input node.
+8.	For **Input**, select `*${inputs.question}*`.  This should create a node under the input node.
 
 ![](/img/tutorial/search-vector.png)
  
@@ -229,7 +229,7 @@ We'll be using the following tools:
 11.	Enter **Name** for the node (e.g. search_vector_index).
 12.	Click the **Add** button
 13.	For **Path**, copy and paste the Datastore URI you retrieve earlier for the vector index.
-14.	Select the embedding output as the **query** field (e.g. *${embed_question.output}*).
+14.	Select the embedding output as the **query** field (e.g. `*${embed_question.output}*)`.
 15.	Leave default value for **top_k**.
 
 ![](/img/tutorial/search-vector.png)
@@ -255,9 +255,9 @@ user:
 {{question}}
 ```
 20.	Click the **Validate and parse input** button to generate the input field for the prompt.
-21.	Select the ${Search_Vector_Index.output} for **chat_history**
-22.	For **contexts**, select ${inputs.chat_history}.
-23.	Select ${inputs.question} for the **question** field.
+21.	Select the `${Search_Vector_Index.output}` for **chat_history**
+22.	For **contexts**, select `${inputs.chat_history}`.
+23.	Select `${inputs.question}` for the **question** field.
  
 ![](/img/tutorial/output_prompt.png)
 
@@ -275,9 +275,9 @@ user:
 {{prompt_response}}
 ```
 28.	Click on the Validate and parse input button to regenerate a new input field. Prompt Flow will generate the text metadata you specified in the Prompt textbox.
-29.	In the Prompt_response value, select ${generate_prompt.output}.
+29.	In the Prompt_response value, select `${generate_prompt.output}`.
 30.	Under the Flow pane, scroll up to the output section.
-31.	Replace the answer to ${chat.output}
+31.	Replace the answer to `${chat.output}`
 32.	Click on the Save button
 
 ## Exercise 4: Test Chat with your own data
@@ -360,7 +360,7 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 6.	**Browse** to the workshop repo directory and select the **contoso-dental.csv** file.   
 7.	Click on the **Add** button.   A preview of the top 5 rows of the data should be displayed at the bottom of the page.
 8.	Under Input mapping, enter the open and close brackets **[]** for the value of **chat_history**.
-9.	Click in the Value textbox for the **question** field and enter ${data.question}.
+9.	Click in the Value textbox for the **question** field and enter `${data.question}`.
 
 ![](/img/tutorial/evaluate-input-flow.png)
  
@@ -374,9 +374,9 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 
 ![](/img/tutorial/evaluate-qna-fields.png)
  
-14.	Click on the Data Source textbox and enter ${data.question} for the question field. 
-15.	Enter ${run.inputs.contexts} for the context field.
-16.	Enter ${run.outputs.answer} for the answer field.
+14.	Click on the Data Source textbox and enter `${data.question}` for the question field. 
+15.	Enter `${run.inputs.contexts}` for the context field.
+16.	Enter `${run.outputs.answer}` for the answer field.
 17.	On the right-hand side of the page, scroll down to the bottom of the page.
 18.	Select your AzureOpenAI connection name for the Connection.
 19.	 For Deployment name / Model, select your AzureOpenAI deployment name.
