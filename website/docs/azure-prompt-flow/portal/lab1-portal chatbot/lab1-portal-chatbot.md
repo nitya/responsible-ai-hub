@@ -1,7 +1,7 @@
 ---
-id: pf-portal-chatbot-lab7'
-title: 'Lab# 7: portal chatbot'
-sidebar_position: 7
+id: pf-portal-chatbot-lab1'
+title: 'Lab# 1: portal chatbot'
+sidebar_position: 1
 slug: /portal-chatbot
 ---
 
