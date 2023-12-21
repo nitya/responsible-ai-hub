@@ -2,7 +2,7 @@
 id: pf-portal-lab7'
 title: 'Lab# 7: portal'
 sidebar_position: 7
-slug: /evaluate-chatbot
+slug: /portal-chatbot
 ---
 
 
