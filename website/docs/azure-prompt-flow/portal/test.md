@@ -1,11 +1,9 @@
 ---
-id: pf-portal-lab7'
-title: 'Lab# 7: portal'
+id: pf-portal-chatbot-lab7'
+title: 'Lab# 7: portal chatbot'
 sidebar_position: 7
 slug: /portal-chatbot
 ---
-
-# Prompt Engineering Workshop
 
 Prompt engineering is a tedious process that involves a lot tasks and components.  Developments have next determine what the input or prompts are going to be and what the actions we want in return.  In order to achieve, there are a lot of parts.  For instance, the prompts are responses need to be tokenize.  Next, depending on that the action that will be the output, we need to identify where that information is coming from.  Is the information coming from an API, or an LLM model?  When data is returned, does it need preprocessing?  How is the best response identify?
 
