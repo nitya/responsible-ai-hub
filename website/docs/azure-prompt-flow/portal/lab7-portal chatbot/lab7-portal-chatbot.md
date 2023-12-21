@@ -28,11 +28,9 @@ After the workshop, you learn how to:
 ## Launch GitHub code spaces to create Azure resources
 -	Create Azure OpenAI
 -	Add deployment to OpenAI instance
--	Create Azure Content Safety
 -	Create Azure ML workspace
 -	Create Azure ML compute
--	Create Azure ML custom environment
--	Launch AzureML studio
+
 
 ## Enable Prompt Flow and Access Connection data
 Before we can do this, we’ll need to retrieve details on the Azure OpenAI API instance provisioned in your Azure account.
