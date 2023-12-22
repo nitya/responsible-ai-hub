@@ -1,6 +1,6 @@
 ---
-id: openai-playground-lab5'
-title: 'Lab# 5: OpenAI Playground'
+id: azure-openai-playground-lab5'
+title: 'Lab# 5: Azure OpenAI Playground'
 sidebar_position: 5
 slug: /azure-openai-playground
 ---

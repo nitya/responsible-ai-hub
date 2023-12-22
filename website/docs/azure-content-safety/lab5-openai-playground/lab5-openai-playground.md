@@ -1,7 +1,7 @@
 ---
-id: openai-playground-lab5'
-title: 'Lab# 5: OpenAI Playground'
-sidebar_position: 5
+id: openai-playground-lab6'
+title: 'Lab# 6: OpenAI Playground'
+sidebar_position: 6
 slug: /openai-playground
 ---
 

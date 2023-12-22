@@ -109,6 +109,12 @@ const config = {
             ],
           }, 
           {
+            type: 'doc',
+            docId: 'badges',
+            position: 'left',
+            label: 'Earn Badges',
+          },
+          {
             type: 'dropdown',
             label: 'Collections',
             position: 'right',
