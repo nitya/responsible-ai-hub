@@ -34,21 +34,17 @@ az group create --name <resource-group-name> --location <region-name>
 ```shell
 az configure --defaults group=<resource-group-name>
 ```
-6. If you **do not** have an Azure OpenAI available in your subscription, run: 
+6. Use if you **DO NOT HAVE Azure OpenAI** available in your subscription, run: 
 
 ```shell
 az deployment group create --name rai-workshop --template-file no-openai/main.bicep 
 ```
-Otherwise, if you **do have** an Azure OpenAI available in your subscription, 
+Otherwise, use if you **DO HAVE Azure OpenAI** available in your subscription, 
 ```shell
 az deployment group create --name rai-workshop --template-file use-openai/main.bicep 
 ```
 
-:::info The script will fail if you don't have Azure OpenAI.  Inner Errors:
-{"code": "SpecialFeatureOrQuotaIdRequired", "message": "The subscription does not have QuotaId/Feature required by SKU 'S0' from kind 'OpenAI' or contains blocked QuotaId/Feature."}
-
-:::
-
+**NOTE**:  You will receive an OpenAI error if you do not have OpenAI in your subscription.  
 
 7. See the environment variables for your resources.
 ```shell
