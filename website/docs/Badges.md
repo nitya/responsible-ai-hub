@@ -5,9 +5,10 @@ sidebar_position: 7
 slug: /badges
 ---
 
-Congratulations on completing the Azure Responsible AI workshop! We hope you learned valuable techniques to build awesome AI solutions that are less harmful to individuals and society.  
+Congratulations on completing the Azure Responsible AI workshop! We hope you learned valuable tools to safe-guard, debug and mitigate AI models. With these cutting-edge responsible AI services, you show now be able to identify and prevent harmful outcomes. You have gained a competitive advantage to build awesome AI solutions that are more trustworthy to individuals and society. 
 
-# 🏆 | To claim your badge:
+
+## 🏆 | To claim your badge:
 
 1. Send your name and email address to the workshop organizer.
 2. You will receive an email from the workshop organizer with a link to claim your badge.
@@ -17,6 +18,7 @@ Congratulations on completing the Azure Responsible AI workshop! We hope you lea
 ## 🧑🏿‍💻 | Workshop Completion Badge:
 
 ![](/img/tutorial/100-badge-completion.png)
+
 
 ## 👩‍🏫 | Workshop facilitator Badge:
 
