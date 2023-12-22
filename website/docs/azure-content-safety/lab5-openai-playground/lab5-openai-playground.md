@@ -1,14 +1,14 @@
 ---
-id: openai-playground-lab6'
-title: 'Lab# 6: OpenAI Playground'
-sidebar_position: 6
+id: openai-playground-lab5'
+title: 'Lab# 5: OpenAI Playground'
+sidebar_position: 5
 slug: /openai-playground
 ---
 
 # Setup
 :::info PRE-REQUISITES FOR WORKSHOP
 
-Bring your own laptop - make sure your laptop is fully charged!
+If you **do not** have Azure OpenAI in your Azure subscription, then you can use this Chat playground.
 You will need a valid email - to receive the access-key to use our Azure OpenAI playground.
 You will need a modern browser - to access both the tutorial and playground.
 You may need a GitHub account - if you want to post to our Discussions board. 

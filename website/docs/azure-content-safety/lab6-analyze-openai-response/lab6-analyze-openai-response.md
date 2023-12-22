@@ -1,7 +1,7 @@
 ---
-id: cs-analyze-openai-lab7'
-title: 'Lab# 7: Analyze OpenAI Response'
-sidebar_position: 7
+id: cs-analyze-openai-lab6'
+title: 'Lab# 6: Analyze OpenAI Response'
+sidebar_position: 6
 slug: /content-safety-analyze-openai
 ---
 

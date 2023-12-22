@@ -1,7 +1,7 @@
 ---
 id: cs-analyze-image-lab4'
-title: 'Lab# 5: Analyze Image'
-sidebar_position: 5
+title: 'Lab# 4: Analyze Image'
+sidebar_position: 4
 slug: /content-safety-analyze-image
 ---
 

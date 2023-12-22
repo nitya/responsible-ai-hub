@@ -20,9 +20,14 @@ Let’s explore how the Content Safety API handles text.
 4.	Choose the conda **(py38_env) Python 3.8** kernel.
 5.	Click **Run All** to execute the *text_content_safety.ipynb* notebook.
 6.	Verify that all cells ran successfully.
-7.	In cell #3, the input_text set to *“You're studid”*
+7.	In cell #3, the input_text set to:
+```shell
+You're studid
+```
 8.	In the last cell, you’ll see that the Content Safety API found the input text to be “Hate” content with a severity of 2.
-9.	Now try changing the input_text to your own text and see what the output will be.
+9.	Now try changing the input_text to your own text and see what the output will be. 
+
+Try using the following languages: *English, German, Japanese, Spanish, French, Italian, Portuguese, and Chinese.*
 
 **Note**: you can add code on how you want the application to behavior or what warning message to display, based on the severity level.
 
