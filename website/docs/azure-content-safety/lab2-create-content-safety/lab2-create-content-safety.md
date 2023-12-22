@@ -30,6 +30,12 @@ az account set --subscription <your-subscription-id>
 ```shell
 az group create --name <resource-group-name> --location <region-name>
 ```
+
+- To find an Azure region that is closest to you. Pick a location name close to you to use for this workshop (e.g. ***westus***,  ***eastus*** ***westeurope***, ***southafricanorth***,... etc).  
+```shell
+az account list-locations --query "[*].name" --out tsv | sort
+```
+
 5. Set the resource group as the default resource group for the Azure CLI.
 ```shell
 az configure --defaults group=<resource-group-name>
@@ -43,7 +49,6 @@ Otherwise, use if you **DO HAVE Azure OpenAI** available in your subscription,
 ```shell
 az deployment group create --name rai-workshop --template-file use-openai/main.bicep 
 ```
-
 **NOTE**:  You will receive an OpenAI error if you do not have OpenAI in your subscription.  
 
 7. See the environment variables for your resources.
