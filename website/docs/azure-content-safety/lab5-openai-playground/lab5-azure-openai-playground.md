@@ -16,7 +16,7 @@ For this lab, we are going to use the Azure AI studio to access Azure OpenAI pla
 
 ## Getting started
 
-🚀 | **Launch the Azure AI Studio** - this will open the [studio](https://aka.ms/rai-hub/azure-ai-studio) in Azure portal. You will need to login with your Azure credentials. If you do not have an Azure subscription, you can create a free account [here](https://azure.microsoft.com/en-us/free/).
+🚀 | **Launch the Azure AI Studio** - this will open the [AI studio](https://aka.ms/rai-hub/azure-ai-studio) (aka.ms/rai-hub/azure-ai-studio) in Azure portal. You will need to login with your Azure credentials. If you do not have an Azure subscription, you can create a free account [here](https://azure.microsoft.com/en-us/free/).
 
 ![](/img/tutorial/5-cs-azure-ai-studio.png)
 
