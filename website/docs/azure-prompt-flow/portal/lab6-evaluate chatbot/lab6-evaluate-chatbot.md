@@ -10,7 +10,7 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 
 ## Evaluate chatbot flow
 
-1. On the **Outputs** section, click on the **+ Add output** button.  Then enter **context** for the **Name** field and `*${response.output}*` for the value.
+1. On the **Outputs** section, click on the **+ Add output** button.  Then enter **context** for the **Name** field and `${response.output}` for the value.
 
 ![](/img/tutorial/00-output-eval-content.png)
 
@@ -23,7 +23,7 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 5.	Enter **Name** on the Add new data pane (e.g. Contoso-Dental). Then **Browse** to the workshop repo directory and select the **contoso-dental.csv** file from the */data* folder.   
 6.	Click on the **Add** button.   A preview of the top 5 rows of the data should be displayed at the bottom of the page.
 7.	Under Input mapping, enter the open and close brackets **[]** for the value of **chat_history**.
-8.	Click in the Value textbox for the **question** field and enter `*${data.question}*`.
+8.	Click in the Value textbox for the **question** field and enter `${data.question}`.
 
 ![](/img/tutorial/evaluate-input-flow.png)
  
@@ -42,9 +42,9 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 ```bash
 gpt_groundedness,gpt_retrieval_score,gpt_relevance  
 ```
-15. Enter `*${run.outputs.answer}*` for the **answer** field.
-16. Click on the Data Source textbox and enter `*${data.question}*` for the **question** field. 
-17.	Enter `*${run.outputs.context}*` for the **documents**field.
+15. Enter `${run.outputs.answer}` for the **answer** field.
+16. Click on the Data Source textbox and enter `${data.question}` for the **question** field. 
+17.	Enter `${run.outputs.context}` for the **documents**field.
 
 ![](/img/tutorial/pf-rag-eval-input.png)
 

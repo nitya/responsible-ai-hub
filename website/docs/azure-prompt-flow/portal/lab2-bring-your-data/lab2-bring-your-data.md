@@ -14,28 +14,26 @@ To upload custom data for this lab, you need to use the Contoso Dentist clinic d
 
 ![](/img/tutorial/kernel-select.png)
 
-3.	Select **Python Environment** from the drop-down menu.  Then pick the conda **py3_11_env (Python 3.11)** kernel.
-4. Before running the notebook, you need to replace the following placeholders with values with your Azure OpenAI connection details:
-* **os.environ["AOAI_CONNECTION_NAME"]**:  Replace with your prompt flow connection name you created above.
-* **os.environ["AOAI_API_KEY"]**:  Replace with your Azure OpenAI API key.
-* **os.environ["AOAI_ENDPOINT_URL"]**:  Replace with your Azure OpenAI API endpoint.
-os.environ["TEXT_EMBEDDING_DEPLOYMENT_NAME"]:  Replace with your Azure OpenAI deployment name for the text-embedding-ada-002 model.
-5. Next, you need to upload your *config.json* file to the Azure ML workspace.  To do this, open [Azure ML studio](https://ml.azure.com/).
-6. On the right corner the page, click on the down arrow.Click on the **Download config file** button.  
+3.	Select **Python Environment** from the drop-down menu.  Then pick the conda **py38_env (Python 3.8)** kernel.
+4. Before running the notebook, you need to upload your **config.json** file from the Azure Machine Learning studio.
+
+To do this, open [Azure ML studio](https://ml.azure.com/).
+
+5. On the right corner the page, click on the down arrow.Click on the **Download config file** button.  
 
 ![](/img/tutorial/download-config-json.png)
 
-7. Then browse to the download **config.json** file in your local director.  In the Visual Studio Code editor, click on the *src* folder and upload or paste the *config.json* to the directory.
+6. Then browse to the download **config.json** file in your local director.  In the Visual Studio Code editor, right-click on the *src* folder and upload.  Or paste the *config.json* to the directory.
 
 ![](/img/tutorial/config-upload-src.png)
 
-8. Click on the **Run All** button on the top of the notebook to run the notebook.
-9. It take ~10 for the notebook to running.
-10. Click on the **Link to Azure Machine Learning studio** click in the notebook to open the Azure ML job pipeline.
+7. Click on the **Run All** button on the top of the notebook to run the notebook.
+8. It take ~10 for the notebook to complete running.
+9. Click on the **Link to Azure Machine Learning studio** click in the notebook to open the Azure ML job pipeline.
 
 ![](/img/tutorial/pipeline-vector-index.png)
 
-11. On the left-hand side of the page, click on the **Data** open.
+10. On the left-hand side of the page, click on the **Data** open.
 12. Under the **Data sources**, click **dental_faiss_mlindex** to open the vector data.
 13. Finally copy the **Datastore URI** value.  We’ll use this value in the next exercise.
 

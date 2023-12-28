@@ -1,6 +1,6 @@
 ---
 id: 'prompt-flow-lab1'
-title: 'Exercise# 1: Build Workshop Environment'
+title: 'Lab# 1: Build Workshop Environment'
 sidebar_position: 1
 slug: /build-workshop-enviroment
 ---

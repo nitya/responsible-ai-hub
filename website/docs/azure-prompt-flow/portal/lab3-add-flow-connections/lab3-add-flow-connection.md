@@ -12,7 +12,7 @@ To use Prompt Flow, you need to enable the feature in Azure ML studio.  To enabl
 2.	Locate **Build AI solutions with Prompt Flow**, switch it to Enabled the feature.
 3.	Close the features blade.
 
-## Add Flow connections
+## Flow connections
 
 As you work on creating Flows, it may have dependencies, services or external resources that you would need to connect to; such as OpenAI, Content Safety AI or your custom LLM models.  It enables users to add and manage connection to these resources as well as a their connection secrets.  Once a resource is connected, your Flow nodes have access to the resources metadata (e.g. name, api key, api_endpoint, or type).  In this workshop, we’ll be using the Azure OpenAI API and Azure Content Safety.
 
@@ -28,19 +28,9 @@ First, we’ll add the connection for Azure OpenAI API.
 8.	Paste the Key 1 value for Azure OpenAI you copied earlier in the **API key** textbox.
 9.	Paste the Language API URL you copied earlier in the **API base** textbox.
 10.	The **API type** should be set to the default value (e.g. azure)
-11.	The **API version** should be set to the default value (e.g. 2023-07-01-preview)
+11.	The **API version** should be set to the default value (e.g. 2023-10-01-preview)
 12.	 Click **Save**
 
-Next, we’ll add the connection for Content Safety.   
-
-1.	Click on the **Create** button, then select **Azure Content Safety** option in the drop-down menu
-2.	Enter a **Name**
-3.	The **Provider** should be set to Azure content safety
-4.	Paste the Key 1 value for content safety you copied earlier in the **API key** textbox.
-5.	Paste the Endpoint URL you copied earlier in the **Endpoint** textbox.
-6.	The API version should be set to the default value (e.g. *2023-04-30-preview*)
-7.	The **API type** should be set to the default value (e.g. *Content Safety*)
-8.	Click **Save**
 
 ## Create a Runtime 
 

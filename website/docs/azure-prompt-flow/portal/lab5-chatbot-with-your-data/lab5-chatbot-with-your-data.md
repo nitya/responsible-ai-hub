@@ -2,7 +2,7 @@
 id: pf-chatbot-with-your-data-lab5'
 title: 'Lab# 5: Chatbot with your data'
 sidebar_position: 5
-slug: /portal-chatbot
+slug: /chatbot-with-your-data
 ---
 
 In the precise exercise you create a vector index and train to search for your vector embeddings.  In the exercise, you’ll be expanding the Chat pipeline logic to take the user question and convert to numeric embeddings.  Then we’ll use the numeric embedding to search the numeric vector.  Next, we’ll use the prompt to set rules with restrictions and how to display the data to the user.
@@ -23,7 +23,7 @@ We'll be using the following tools:
 5.	Click the **Add** button.
 6.	Select the **AzureOpenAIconnection** name you created earlier.
 7.	Select **Text-embedding-ada-002** deployment name you created earlier
-8.	For **Input**, select `*${inputs.question}*`.  This should create a node under the input node.
+8.	For **Input**, select `${inputs.question}`.  This should create a node under the input node.
 
 ![](/img/tutorial/search-vector.png)
  
@@ -32,7 +32,7 @@ We'll be using the following tools:
 11.	Enter **Name** for the node (e.g. search_vector_index).
 12.	Click the **Add** button
 13.	For **Path**, copy and paste the Datastore URI you retrieve earlier for the vector index.
-14.	Select the embedding output as the **query** field (e.g. `*${embed_question.output}*)`.
+14.	Select the embedding output as the **query** field (e.g. `${embed_question.output}*)`.
 15.	Leave default value for **top_k**.
 
 ![](/img/tutorial/search-vector.png)
@@ -152,5 +152,5 @@ user:
 ```shell
 Which supplements are good for teeth?
 ```
-8.	As you can see, our chat produces a response that is factual button not in our Contoso dental data.
+As you can see, our chat produces a response that is factual but not in our Contoso dental data. This is an example of a groundedness issue. This is a safety risk, because if the recommendation provided makes a user sick or have a bad reaction. It can have negative consequences for Contoso dental clinic.
  
