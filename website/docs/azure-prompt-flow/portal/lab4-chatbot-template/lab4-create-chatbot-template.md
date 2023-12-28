@@ -10,7 +10,7 @@ We will learn how to create a basic chat agent that interacts with prompts power
 1.	In [Azure ML studio](https://ml.azure.com/), click on Prompt Flow.  
 2.	On the Prompt flow page, select the **Flow** tag.   Then click on **Create** button.
 
-![](img/tutorial/00-chatflow-template.png)
+![](/img/tutorial/00-chatflow-template.png)
 
 This displays a gallery of different types of flows and evaluation templates you can clone.  
 3.	In this lab, under **Chat Flow**, click on the Create button.
