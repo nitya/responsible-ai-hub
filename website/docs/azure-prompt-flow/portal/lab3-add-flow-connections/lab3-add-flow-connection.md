@@ -7,9 +7,11 @@ slug: /add-flow-connections
 
 To use Prompt Flow, you need to enable the feature in Azure ML studio.  To enable the feature, complete the following steps:
 
-1.	Open [Azure ML studio](https://ml.azure.com/), and click on the bullhorn icon on the upper right corner of the page.
+1.	Open [Azure ML studio](https://ml.azure.com/), verify that you have the **Prompt Flow** tab on the left-hand side of the navigation bar.  
  
-2.	Locate **Build AI solutions with Prompt Flow**, switch it to Enabled the feature.
+![](/img/tutorial/00-enable-promptflow.png)
+
+2. If you don’t see the tab, click on the bullhorn icon on the upper right corner of the page.	Locate **Easily run prompt flow without worrying about compute and runtime life cycle**, switch it to Enabled the feature.
 3.	Close the features blade.
 
 ## Flow connections

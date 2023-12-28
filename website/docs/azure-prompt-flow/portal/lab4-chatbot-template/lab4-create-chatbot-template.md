@@ -44,8 +44,6 @@ If you scroll back to the Output section, you’ll see that the **answer** is li
 ## Run the Chat
 
 1.	To test the Chat flow, click on the **Chat** icon
-
-![](/img/tutorial/new-chat.png)
  
 2.	In the text box and click submit the following question:
 

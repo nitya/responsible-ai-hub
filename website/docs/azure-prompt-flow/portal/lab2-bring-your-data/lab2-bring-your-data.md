@@ -1,6 +1,6 @@
 ---
-id: pf-bring-your-data-lab3'
-title: 'Lab# 3: bring your own data'
+id: pf-bring-your-data-lab2'
+title: 'Lab# 2: Bring your own data'
 sidebar_position: 3
 slug: /bring-your-data
 ---
