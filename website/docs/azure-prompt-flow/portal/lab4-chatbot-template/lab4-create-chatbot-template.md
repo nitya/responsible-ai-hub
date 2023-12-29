@@ -6,22 +6,24 @@ slug: /create-chatbot-template
 ---
 
 We will learn how to create a basic chat agent that interacts with prompts power by an OpenAI model.
-
-1.	In [Azure ML studio](https://ml.azure.com/), click on Prompt Flow.  
-2.	On the Prompt flow page, select the **Flow** tag.   Then click on **Create** button.
+ 
+1.	On the Prompt flow page, select the **Flow** tag.   Then click on **Create** button.
 
 ![](/img/tutorial/00-chatflow-template.png)
 
 This displays a gallery of different types of flows and evaluation templates you can clone.  
-3.	In this lab, under **Chat Flow**, click on the Create button.
-4.	Enter a **Folder name** on the Create a new file blade.
-5.	Press **Create**.
+
+2.	Under **Chat Flow**, click on the Create button.
+
+3.	Enter a **Folder name** on the Create a new file blade (e.g contoso-dental-chat).
+
+4.	Press **Create**.
 
 ## Input Node
 
 On flow page, Prompt generates the Input fields need for the chat input node.  The right side of the page displays a pipeline containing action nodes with logic needed to build the flow.
 
-Add LLM model for the Chat prompt
+*Add Azure OpenAI to power the chat*
 
 1.	Under the **Connection** drop-down menu, select the name for the *Azure OpenAI connection* created earlier.
 
@@ -34,6 +36,9 @@ Add LLM model for the Chat prompt
 
 * **System**: States what the chat does, as well as rules & restrictions for it.  You can enter instructions on how to handle use inquiries.
 * Since the Chat flow keeps the context and dialogue of the conversation, the prompt loops through the chat history to display the chat responses and user inputs.
+
+6. Click **Save** on the top right corner of the page.
+
 
 ## Output Node
 
@@ -67,5 +72,5 @@ What is the address of your dental clinic?
 
 ![](/img/tutorial/dental-address.png)
  
-As you can see the Chat is not able to answer specific questions about a business or dental clinic.   This makes some of the answers not reliable or available.  In the next exercise, you learn how to bring your custom data into the chat to provide response that are relevant to your data.
+As you can see the openAI Chat is able to successfully provide answers to the user's question.  However, it was not able to answer specific questions about a business or dental clinic.   This makes some of the answers not reliable or available.  In the next exercise, you learn how to bring your custom data into the chat to provide response that are relevant to your data.
 

@@ -7,6 +7,11 @@ slug: /evaluate-chatbot
 
 You can unit test your Flow.  However, Prompt flow provides a gallery of sample evaluation flows your can use to test you Flow in bulk.  For example, classification accuracy, QnA Groundedness, QnA Relevant, QnA Similarity, QnA F1 Score etc.  This enables you to test how well your LLM is performing.  In addition, you have the ability to examine which of your variant prompts are performing better.   In this example, we’ll use the **QnA RAG Evaluation** template to test our flow.
 
+## Prequisites
+- Clone the lab repo to your local machine:
+```bash
+git clone https://github.com/Azure-Samples/rai-prompt-flow-workshop.git
+```
 
 ## Evaluate chatbot flow
 
@@ -14,13 +19,15 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 
 ![](/img/tutorial/00-output-eval-content.png)
 
-2. Click on the **Evaluate** button on the top right-side of the screen.
+2. Click **Save** button
+
+3. Click on the **Evaluate** button on the top right-side of the screen.
 
 ![](/img/tutorial/evaluate.png)
 
-3.	On the **Batch run & Evaluate** page, select the **Next** button
+4.	On the **Batch run & Evaluate** page, select the **Next** button
 4.	On the Batch run settings page, click on **Add new data** link for the **Data** field.  
-5.	Enter **Name** on the Add new data pane (e.g. Contoso-Dental). Then **Browse** to the workshop repo directory and select the **contoso-dental.csv** file from the */data* folder.   
+5.	Enter **Name** on the Add new data pane (e.g. Contoso-Dental). Then **Browse** to the lab repo directory and select the **contoso-dental.csv** file from the */rai-prompt-flow-workshop/data* folder.   
 6.	Click on the **Add** button.   A preview of the top 5 rows of the data should be displayed at the bottom of the page.
 7.	Under Input mapping, enter the open and close brackets **[]** for the value of **chat_history**.
 8.	Click in the Value textbox for the **question** field and enter `${data.question}`.

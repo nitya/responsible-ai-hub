@@ -11,7 +11,7 @@ To use Prompt Flow, you need to enable the feature in Azure ML studio.  To enabl
  
 ![](/img/tutorial/00-enable-promptflow.png)
 
-2. If you don’t see the tab, click on the bullhorn icon on the upper right corner of the page.	Locate **Easily run prompt flow without worrying about compute and runtime life cycle**, switch it to Enabled the feature.
+2. If you don’t see the **Prompt Flow** tab, click on the bullhorn icon on the upper right corner of the page.	Locate **Easily run prompt flow without worrying about compute and runtime life cycle**, switch it to **Enabled** the feature.
 3.	Close the features blade.
 
 ## Flow connections
@@ -20,13 +20,13 @@ As you work on creating Flows, it may have dependencies, services or external re
 
 First, we’ll add the connection for Azure OpenAI API.  
 
-1.	Open the [Azure ML studio](https://ml.azure.com/),  and select **Prompt Flow** on the left-hand side of the navigation bar
+1.	Select the **Prompt Flow** tab, on the left-hand side of the navigation bar.
 2.	Click on the **Connections** tab on the Prompt Flow page
 3.	Click on the **Create** button, then select **Azure OpenAI** option in the drop-down menu
-4.	Enter a **Name** 
-5.	The Azure OpenAI option should be selected for **Provider**.
+4.	Enter a **Name** (e.g. azure-openai-connection)
+5.	The **Azure OpenAI** option should be selected for **Provider**.
 6.	Select your subscription under **Subscription id**.
-7.	Select your OpenAI instance name under **Azure OpenAI Account Names** drop-down menu.
+7.	Select your OpenAI instance name, you created in the previous lab, under **Azure OpenAI Account Names** drop-down menu.
 8.	Paste the Key 1 value for Azure OpenAI you copied earlier in the **API key** textbox.
 9.	Paste the Language API URL you copied earlier in the **API base** textbox.
 10.	The **API type** should be set to the default value (e.g. azure)
@@ -46,11 +46,16 @@ To create runtime environment, complete the following steps:
 * Enter a **Compute name**
 * Select **CPU** for the **Virtual machine type**
 * Select **Standard_D12_v2** for the **Virtual machine size**
-* Click **Review + create** button
+* Click **Review + create** button.  Then click **Create** button.
 
-4.	Under **Custom Application**, select the **New** option
+![](/img/tutorial/00-runtime-compute-running.png)
+
+Wait for the compute instance to be created.  When the compute status is **Running**, you can proceed to the next step.
+
+4.	For **Custom Application**, select the **New** option
 
 5.	Under **Environment**, select **Use default environment**.
 
-6.	Click on **Create**
+6.	Click on **Create**.  Then click **Confirm**, for auto compute restart.
 
+7.  Wait for the runtime status to be **Running**.  You can keep refreshing the page to check the status.
