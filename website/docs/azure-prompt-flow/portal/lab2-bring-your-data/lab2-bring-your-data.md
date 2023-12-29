@@ -15,9 +15,11 @@ To upload custom data for this lab, you need to use the Contoso Dentist clinic d
 ![](/img/tutorial/kernel-select.png)
 
 3.	Select **Python Environment** from the drop-down menu.  Then pick the conda **py38_env (Python 3.8)** kernel.
-4. Before running the notebook, you need to upload your **config.json** file from the Azure Machine Learning studio.
+4. Before running the notebook, you need to upload your **config.json** file from the Azure Machine Learning studio. To do this, open [Azure ML studio](https://ml.azure.com/).
 
-To do this, open [Azure ML studio](https://ml.azure.com/).
+If you don't the down-arrow on the top right corner of the page, click the **View all workspaces ->** link.  Then select the workspace name of your Azure Machine Learning.
+
+![](/img/tutorial/00-viewall-aml-wkspace.png)
 
 5. On the right corner the page, click on the down arrow.Click on the **Download config file** button.  
 
