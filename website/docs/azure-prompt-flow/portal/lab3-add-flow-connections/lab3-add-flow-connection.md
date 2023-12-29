@@ -16,22 +16,14 @@ To use Prompt Flow, you need to enable the feature in Azure ML studio.  To enabl
 
 ## Flow connections
 
-As you work on creating Flows, it may have dependencies, services or external resources that you would need to connect to; such as OpenAI, Content Safety AI or your custom LLM models.  It enables users to add and manage connection to these resources as well as a their connection secrets.  Once a resource is connected, your Flow nodes have access to the resources metadata (e.g. name, api key, api_endpoint, or type).  In this workshop, we’ll be using the Azure OpenAI API and Azure Content Safety.
+As you work on creating Flows, it may have dependencies, services or external resources that you would need to connect to; such as OpenAI, Azure Content Safety or your custom LLM models.  It enables users to add and manage connection to these resources as well as a their connection secrets.  Once a resource is connected, your Flow nodes have access to the resources metadata (e.g. name, api key, api_endpoint, or type).  In this workshop, we’ll be using the Azure OpenAI API.
 
-First, we’ll add the connection for Azure OpenAI API.  
+First, let's confirm the Azure OpenAI API connection your created in the preview lab.  
 
 1.	Select the **Prompt Flow** tab, on the left-hand side of the navigation bar.
 2.	Click on the **Connections** tab on the Prompt Flow page
-3.	Click on the **Create** button, then select **Azure OpenAI** option in the drop-down menu
-4.	Enter a **Name** (e.g. azure-openai-connection)
-5.	The **Azure OpenAI** option should be selected for **Provider**.
-6.	Select your subscription under **Subscription id**.
-7.	Select your OpenAI instance name, you created in the previous lab, under **Azure OpenAI Account Names** drop-down menu.
-8.	Paste the Key 1 value for Azure OpenAI you copied earlier in the **API key** textbox.
-9.	Paste the Language API URL you copied earlier in the **API base** textbox.
-10.	The **API type** should be set to the default value (e.g. azure)
-11.	The **API version** should be set to the default value (e.g. 2023-10-01-preview)
-12.	 Click **Save**
+
+![](/img/tutorial/00-confirm-flow-connection.png)
 
 
 ## Create a Runtime 
