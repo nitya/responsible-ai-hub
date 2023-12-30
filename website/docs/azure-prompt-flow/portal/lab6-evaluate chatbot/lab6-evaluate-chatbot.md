@@ -27,10 +27,13 @@ git clone https://github.com/Azure-Samples/rai-prompt-flow-workshop.git
 
 4.	On the **Batch run & Evaluate** page, select the **Next** button
 4.	On the Batch run settings page, click on **Add new data** link for the **Data** field.  
-5.	Enter **Name** on the Add new data pane (e.g. Contoso-Dental). Then **Browse** to the lab repo directory and select the **contoso-dental.csv** file from the */rai-prompt-flow-workshop/data* folder.   
-6.	Click on the **Add** button.   A preview of the top 5 rows of the data should be displayed at the bottom of the page.
-7.	Under Input mapping, enter the open and close brackets **[]** for the value of **chat_history**.
-8.	Click in the Value textbox for the **question** field and enter `${data.question}`.
+5.	Enter **Name** on the Add new data pane (e.g. Contoso-Dental). 
+
+6.  Select **Upload from local folder**. Then **Browse** to the lab repo */rai-prompt-flow-workshop/data* folder. 
+7.  Click on the **Upload** button.  Then **Upload** button again on the browser pop-up pane accepting *This will upload all file from "data"..."
+8.	Click on the **Add** button.   A preview of the top 5 rows of the data should be displayed at the bottom of the page.
+9.	Under Input mapping, enter the open and close brackets **[]** for the value of **chat_history**.
+10.	Click in the Value textbox for the **question** field and enter `${data.question}`.
 
 ![](/img/tutorial/evaluate-input-flow.png)
  
@@ -56,7 +59,7 @@ gpt_groundedness,gpt_retrieval_score,gpt_relevance
 ![](/img/tutorial/pf-rag-eval-input.png)
 
 18.	On the right-hand side of the page, scroll down to the bottom of the page.
-19.	Select your AzureOpenAI connection name for the **Connection** fields.
+19.	Select your AzureOpenAI connection name (e.g. azure-openai-conn) for the **Connection** fields.
 20.	The **Deployment name / Model** should automatically population the your AzureOpenAI deployment name.
  
  ![](/img/tutorial/evaluate-connection.png)

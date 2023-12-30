@@ -22,6 +22,7 @@ First, let's confirm the Azure OpenAI API connection your created in the preview
 
 1.	Select the **Prompt Flow** tab, on the left-hand side of the navigation bar.
 2.	Click on the **Connections** tab on the Prompt Flow page
+3. Confirm that the **azure-openai-conn** connection is listed.  
 
 ![](/img/tutorial/00-confirm-flow-connection.png)
 
@@ -34,15 +35,9 @@ To create runtime environment, complete the following steps:
 
 1.	Click on the **Runtime** tab; than click **Create** button
 2.	Enter a **Runtime name**
-3.	Select on existing compute under the **Select Azure ML compute instance** drop-down menu.  If there’s no existing compute instance, click on **Create Azure ML compute instance**
-* Enter a **Compute name**
-* Select **CPU** for the **Virtual machine type**
-* Select **Standard_D12_v2** for the **Virtual machine size**
-* Click **Review + create** button.  Then click **Create** button.
+3.	Select the **prompt-compute** compute under the **Select Azure ML compute instance** drop-down menu.  
 
 ![](/img/tutorial/00-runtime-compute-running.png)
-
-Wait for the compute instance to be created.  When the compute status is **Running**, you can proceed to the next step.
 
 4.	For **Custom Application**, select the **New** option
 
@@ -50,4 +45,4 @@ Wait for the compute instance to be created.  When the compute status is **Runni
 
 6.	Click on **Create**.  Then click **Confirm**, for auto compute restart.
 
-7.  Wait for the runtime status to be **Running**.  You can keep refreshing the page to check the status.
+7.  Wait ~3 minutes for the runtime status to be **Running**.  You can keep refreshing the page to check the status.

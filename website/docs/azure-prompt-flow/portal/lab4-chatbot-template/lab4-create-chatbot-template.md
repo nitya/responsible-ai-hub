@@ -14,9 +14,7 @@ We will learn how to create a basic chat agent that interacts with prompts power
 This displays a gallery of different types of flows and evaluation templates you can clone.  
 
 2.	Under **Chat Flow**, click on the Create button.
-
 3.	Enter a **Folder name** on the Create a new file blade (e.g contoso-dental-chat).
-
 4.	Press **Create**.
 
 ## Input Node
@@ -25,7 +23,7 @@ On flow page, Prompt generates the Input fields need for the chat input node.  T
 
 *Add Azure OpenAI to power the chat*
 
-1.	Under the **Connection** drop-down menu, select the name for the *Azure OpenAI connection* created earlier.
+1. In the Chat section, under **Connection** drop-down menu, select the name for the *Azure OpenAI connection* you created earlier.
 
 ![](/img/tutorial/00-add-chat-gpt-conn.png)
 
@@ -67,7 +65,7 @@ My molar tooth is aching so bad.  What could be the cause?
 4.	Finally, to test if the chat can provide specific information about a specific dental office, enter:
 
 ```shell
-What is the address of your dental clinic?
+what is the dental hospital address?
 ```
 
 ![](/img/tutorial/dental-address.png)
