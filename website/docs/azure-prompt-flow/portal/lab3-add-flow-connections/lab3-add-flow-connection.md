@@ -26,6 +26,10 @@ First, let's confirm the Azure OpenAI API connection your created in the preview
 
 ![](/img/tutorial/00-confirm-flow-connection.png)
 
+4. Click on the **azure-openai-conn** connection.  Then select the **Edit** button.
+5. Select your **Subscription Id** and **Azure OpenAI Account Name**.  
+6. Click on the **Save** button.
+
 
 ## Create a Runtime 
 
