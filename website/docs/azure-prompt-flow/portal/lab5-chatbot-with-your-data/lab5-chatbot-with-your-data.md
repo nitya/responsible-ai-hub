@@ -127,14 +127,21 @@ What is the clinic's phone number?
 ![](/img/tutorial/dental-clinic-phone.png)
  
 8.	Finally, enter the following what questions:
+```shell
+Which supplements are good for teeth?
+```
+9.	Now, enter the following question:
 
 ```shell
-My tooth is aching really bad.  What could be the cause?
+Which supplements are good for teeth?
 ```
 
-9.	You should get the following response:
+10.	You should get the following response:
  
-![](/img/tutorial/toothache.png)
+![](/img/tutorial/00-teeth-vitamins.png)
+
+As you can see, our chat produces a response that is factual but not in our Contoso dental data. This is an example of a groundedness issue. This is a safety risk, because if the recommendation provided makes a user sick or have a bad reaction. It can have negative consequences for Contoso dental clinic.
+
 
 ## Handle Groundedness & Hallucinations
 
@@ -155,7 +162,7 @@ This will expand the section with **Variant_0** generated and **Variant_1** gene
 
 ```shell
 system:
-You are an AI dental assistant designed to answer questions.I need you to generate a response to the user's question based information only from the vector index lookup. I want a well-informed and polite response. Please provide a unique, honest and relevant answer. If you are not sure about the answer, kindly respond with "I don't know."
+You are an AI dental assistant designed to answer questions. I need you to generate a response to the user's question based only on context and information from the dental documents.  You *must only* provide responses from the vector dental documents. I want a well-informed and polite response. Please provide a unique, honest and relevant answer. If you are not sure about the answer, kindly respond with "I don't know."
 
 context: {{contexts}}
 
@@ -177,5 +184,8 @@ user:
 ```shell
 Which supplements are good for teeth?
 ```
-As you can see, our chat produces a response that is factual but not in our Contoso dental data. This is an example of a groundedness issue. This is a safety risk, because if the recommendation provided makes a user sick or have a bad reaction. It can have negative consequences for Contoso dental clinic.
+
+![](/img/tutorial/00-i-dont-know.png)
+
+Fantastic!....as you can see, since our contoso dental data does not contain supplements for teeth, our chat response with **I don't know*. 
  
