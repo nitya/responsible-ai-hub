@@ -104,7 +104,7 @@ Now that you have updated the prompt flow logic to you use your own data and pro
 
 1. Click on the **Chat** icon on the top right corner of the page.
 
-2. To clear the prior chat history, click on the dialog icon next to the input textbox.
+2. To clear the prior chat history, click on the dialog icon next to the input textbox (**Note**:  Make sure to clear all chat history).
 
 ![](/img/tutorial/00-clear-chat-history.png)
 
@@ -112,7 +112,7 @@ Now that you have updated the prompt flow logic to you use your own data and pro
 ```shell
 what is the dental hospital address?
 ```
-5.	You should get the following response:
+4.	You should get the following response:
 
 ![](/img/tutorial/dental-clinic-address.png)
  
@@ -130,13 +130,8 @@ What is the clinic's phone number?
 ```shell
 Which supplements are good for teeth?
 ```
-9.	Now, enter the following question:
 
-```shell
-Which supplements are good for teeth?
-```
-
-10.	You should get the following response:
+9.	You should get the following response:
  
 ![](/img/tutorial/00-teeth-vitamins.png)
 
@@ -179,7 +174,7 @@ user:
 7. Click on the **Set as default** button to set the new prompt as the default prompt for the **generate_prompt** node.
 8.	Click the **Save** button
 9.  Click on the **Chat** icon on the top right corner of the page.
-10. Clear the prior chat history by click on the dialog icon next to the input textbox.
+10. Clear the prior chat history by click on the dialog icon next to the input textbox.  (**Note**:  Make sure to clear all chat history).
 11.	Now, enter the following question:
 ```shell
 Which supplements are good for teeth?

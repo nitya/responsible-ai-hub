@@ -7,11 +7,6 @@ slug: /evaluate-chatbot
 
 You can unit test your Flow.  However, Prompt flow provides a gallery of sample evaluation flows your can use to test you Flow in bulk.  For example, classification accuracy, QnA Groundedness, QnA Relevant, QnA Similarity, QnA F1 Score etc.  This enables you to test how well your LLM is performing.  In addition, you have the ability to examine which of your variant prompts are performing better.   In this example, we’ll use the **QnA RAG Evaluation** template to test our flow.
 
-## Prequisites
-- Clone the lab repo to your local machine:
-```bash
-git clone https://github.com/Azure-Samples/rai-prompt-flow-workshop.git
-```
 
 ## Evaluate chatbot flow
 
