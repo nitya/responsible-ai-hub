@@ -18,7 +18,7 @@ const FeatureList = [
   {
     title: 'Azure Content Safety for OpenAI',
     Svg: require('@site/static/img/workshop-safety.svg').default,
-    link: 'docs/content-safety-overview',
+    link: '/content-safety-overview',
     topic: 'Get The Code',
     topiclink: 'https://aka.ms/rai-hub/content-safety-workshop',
     description: (
@@ -55,7 +55,7 @@ function Feature({ Svg, title, description, topic, topiclink, link }) {
         <a href={topiclink} target="_blank">
           <span className="badge badge--primary margin-horiz--xs">{topic}</span>
         </a>
-        <a href={link}>
+        <a href={link} target="_blank">
           <span className="badge badge--danger margin-horiz--xs">Launch Tutorial</span>
         </a>
       </div>
