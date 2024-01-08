@@ -18,7 +18,7 @@ const FeatureList = [
   {
     title: 'Azure Content Safety for OpenAI',
     Svg: require('@site/static/img/workshop-safety.svg').default,
-    link: '/content-safety-overview',
+    link: 'docs/content-safety-overview',
     topic: 'Get The Code',
     topiclink: 'https://aka.ms/rai-hub/content-safety-workshop',
     description: (
