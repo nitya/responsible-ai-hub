@@ -12,7 +12,7 @@ As we build applications that engage with people, it’s vital that the content 
 There are several challenges in having a staff of moderators to review the content. The limitations are difficult to manually inspect the enormous amount of text or images. Another challenge is that the staff that are evaluating the text are subjective, insistent on what they classify as a violation, or it can be time consuming. Using the Content Safety AI service makes it possible to catch issues faster and more efficiently. This reduces unnecessary manual repetitive tasks and potentially errors. In addition, the API service has built-in profanity detection.
 With the vast use of generative AI, there are user input prompts and dynamic AI-generated responses, Azure Content Safety serves as a useful tool to safeguard content that can be risky or undesirable.
 
-![](/img/tutorial/cs-severity-levels.gif)
+![CS Severity Levels](/img/tutorial/cs-severity-levels.gif)
 
 ## 👩🏽‍💻 | Objectives
 At the end of the workshop, you will:

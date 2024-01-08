@@ -7,11 +7,11 @@ slug: /prompt-flow-overview
 
 Prompt engineering is a tedious process that involves a lot tasks and components.  Developments have next determine what the input or prompts are going to be and what the actions we want in return.  In order to achieve, there are a lot of parts.  For instance, the prompts are responses need to be tokenize.  Next, depending on that the action that will be the output, we need to identify where that information is coming from.  Is the information coming from an API, or an LLM model?  When data is returned, does it need preprocessing?  How is the best response identify?
 
-![](/img/tutorial/vector-token-embed.png)
+![Prompt Flow Vector Token Embed](/img/tutorial/vector-token-embed.png)
 
 That’s where Azure Prompt Flow, is valuable if providing a user-friendly logical flow to structure the different tasks involves and their dependencies.  To understand how to utilize Prompt Flow to expedite process of using an LLM that takes input and generates.  We are going to use a dental clinic’s virtual chat agent takes input from users and provides an answer.  Since using OpenAI or any other LLM model is not going to know specific information about our Contoso dental client, we are going to use data for our clinic.
 
-![](/img/rag-pattern.png)
+![RAG Pattern](/img/rag-pattern.png)
 
 **Custom Data**:
 

@@ -14,15 +14,15 @@ This will launch a Codespaces environment with all the dependencies installed.  
 
 **Note**: You can also access the codespaces by clicking on the green **Code** button in the top right of the repo.  Then selecting the **Codespaces** tab and clicking on the **Create codespace on main** button to launch the Codespaces environement.
 
-![](/img/tutorial/cs-codespaces-tab.png)
+![CS Codespaces Tab](/img/tutorial/cs-codespaces-tab.png)
 
 This will launch a Codespaces environment with all the dependencies installed.  Once the environment is ready. This will take ~ 10 minutes.  
 
-![](/img/tutorial/github-load-codespaces.png)
+![GitHub Load Codespaces](/img/tutorial/github-load-codespaces.png)
 
 When the environment is ready, a Visual Studio Code editor will open.
 
-![](/img/tutorial/cs-vsc-codespaces-cmd.png)
+![CS VS Code Codespsaces Command](/img/tutorial/cs-vsc-codespaces-cmd.png)
 
 
 
