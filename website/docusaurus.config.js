@@ -155,7 +155,7 @@ const config = {
           },
           {
             label: "Privacy Statement ",
-            to: " https://go.microsoft.com/fwlink/?LinkId=521839",
+            to: "https://go.microsoft.com/fwlink/?LinkId=521839",
           },
           {
             label: `© ${new Date().getFullYear()} Microsoft`,
