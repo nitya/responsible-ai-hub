@@ -1,15 +1,15 @@
 ---
-id: rai-promptflow-walkthru
+id: rai-contentsafety-walkthru
 title: Video Walkthrough
 sidebar_position: 2
-slug: /rai-promptflow-walkthru
+slug: /rai-contentsafety-walkthru
 ---
 
-The **Azure ML Prompt Flow** labs takes about an hour to complete end-to-end. It can take longer if you factor in time for exploration and data entry. You might also run into issues or have questions about what _should have happened_ at a specific point in the lab, to help you debug or understand concepts better.
+The **Azure Content Safety** labs takes about an hour to complete end-to-end. It can take longer if you factor in time for exploration and data entry. You might also run into issues or have questions about what _should have happened_ at a specific point in the lab, to help you debug or understand concepts better.
 
 **This video recording of the labs can help**. The tables below show you the timestamps for each relevant step, within this video. Just visit the YouTube page and open the description to get _pre-linked_ key moments to jump directly to the relevant segments to review walkthrough steps for reference.
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/OZpgOToBDqw" title="Azure ML Prompt Flow - Exercise Walkthrough" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/UM9Ohefo4zU" title="Azure Content Safety for OpenAI - Exercise Walkthrough" frameborder="0" allowfullscreen></iframe>
 
 ### 1. Prepare Environment
 
