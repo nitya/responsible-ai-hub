@@ -1,7 +1,7 @@
 ---
 id: rai-promptflow-walkthru
 title: Video Walkthrough
-sidebar_position: 2
+sidebar_position: 3
 slug: /rai-promptflow-walkthru
 ---
 
