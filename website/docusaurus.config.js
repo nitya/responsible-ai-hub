@@ -47,7 +47,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
 
-      image: 'img/responsible-ai-card.jpg',
+      image: 'img/rai-hub-banner.jpeg',
+      metadata: [{name: 'twitter:card', content: 'The Responsible AI Developer Hub provides free resources for skilling up on Responsible AI Principles and Practices. Start off with our three workshops on Responsible AI Dashboard, Azure Content Safety, and Prompt Flow on Azure ML. Visit https://aka.ms/rai-hub/website'}],
 
 
       docs: {
