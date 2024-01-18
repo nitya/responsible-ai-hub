@@ -1,6 +1,6 @@
 ---
 id: pf-chatbot-with-your-data-lab5'
-title: 'Lab# 5: Chatbot with your data'
+title: '5️⃣ | Chat With Your Data'
 sidebar_position: 5
 slug: /chatbot-with-your-data
 ---

@@ -1,6 +1,6 @@
 ---
 id: cs-analyze-text-lab4'
-title: 'Lab# 4: Analyze Text'
+title: '3️⃣ | Analyze Text'
 sidebar_position: 4
 slug: /content-safety-analyze-text
 ---

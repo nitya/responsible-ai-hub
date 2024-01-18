@@ -99,7 +99,7 @@ export default function Sprints() {
             <h1 class="hero__title">{title}</h1>
             <p class="hero__subtitle">{description}</p>
             <div>
-              <a class="button button--primary button--outline" href="https://www.microsoft.com/en-us/ai/ai-lab-responsible-ai-dashboard">Visit The Website</a>
+              <a class="button button--primary button--outline" href="https://www.microsoft.com/ai/ai-lab-responsible-ai-dashboard">Visit The Website</a>
             </div>
           </div>
         </div>

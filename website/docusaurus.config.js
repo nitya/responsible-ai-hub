@@ -53,7 +53,7 @@ const config = {
       docs: {
         sidebar: {
           hideable: false,
-          autoCollapseCategories: true,
+          autoCollapseCategories: false,
         },
       },
 
@@ -67,24 +67,11 @@ const config = {
 
         items: [
           {
-            type: 'dropdown',
-            label: 'Start Here',
+            type: 'doc',
+            docId: 'Introduction',
             position: 'left',
-            items: [ 
-              {
-                to: '/no-azure',
-                label: 'No Azure Account',
-              },
-              {
-                to: '/student-azure',
-                label: 'Student Azure Account',
-              },
-              {
-                to: '/pro-azure',
-                label: 'Pro Azure Account',
-              },
-            ],
-          }, 
+            label: 'Introduction',
+          },
           {
             type: 'dropdown',
             label: 'Workshops',
@@ -93,7 +80,7 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'dashboardSidebar',
-                label: '1. Responsible AI Dashboard',
+                label: '1. Responsible AI Dashboard on Azure',
               },
        
               {
@@ -104,7 +91,7 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'promptFlowSidebar',
-                label: '3. Azure Prompt Flow',
+                label: '3. Azure Prompt Flow on AzureML',
               }
             ],
           }, 

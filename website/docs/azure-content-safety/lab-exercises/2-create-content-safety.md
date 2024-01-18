@@ -1,8 +1,8 @@
 ---
 id: content-safety-lab2'
-title: 'Lab# 2: Create Azure Content Safety'
+title: '2️⃣ | Create Azure Content Safety'
 sidebar_position: 2
-slug: /content-safety-resource
+slug: /content-safety/resource
 ---
 
 To complete this lesson, you would need a Azure OpenAI and Azure Content Safety. If you don't have OpenAI in your subscription, you'll only be creating an Azure Content Safety resource.

@@ -1,8 +1,8 @@
 ---
 id: cs-codespaces-lab1'
-title: 'Lab# 1: Launch GitHub codespaces project'
+title: '1️⃣ | Launch GitHub Codespaces'
 sidebar_position: 1
-slug: /content-safety-codespaces
+slug: /content-safety/codespaces
 ---
 
 To expedite running the workspace and having a consistent project environment, we’ll be using GitHub codespaces.

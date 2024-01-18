@@ -1,11 +1,13 @@
 ---
 id: 'prompt-flow-lab1'
-title: 'Lab# 1: Build Workshop Environment'
+title: '1️⃣ | Build Lab Environment'
 sidebar_position: 1
 slug: /build-workshop-enviroment
 ---
 
-As you work on creating Flows, it may have dependencies, services or external resources that you would need to connect to; such as OpenAI, Content Safety AI or your custom LLM models.  It enables users to add and manage connection to these resources as well as a their connection secrets (e.g. name, api key, api_endpoint, or type).  
+As you work on creating Flows, it may have dependencies, services or external resources that you would need to connect to, such as OpenAI, Content Safety AI or your custom LLM models.  It enables users to add and manage connection to these resources as well as a their connection secrets (e.g. name, api key, api_endpoint, or type).  
+
+## Launch Codespaces
 
 To get started, you can use a pre-built development environment. **Click the button below** to open the repo in GitHub Codespaces, and then continue the readme!
 
@@ -20,6 +22,8 @@ This will launch a Codespaces environment with all the dependencies installed.  
 This will launch a Codespaces environment with all the dependencies installed.  Once the environment is ready. This will take ~ 10 minutes.  
 
 ![](/img/tutorial/github-load-codespaces.png)
+
+## Open VS Code
 
 When the environment is ready, a Visual Studio Code editor will open.
 

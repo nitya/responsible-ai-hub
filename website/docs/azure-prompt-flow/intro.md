@@ -1,6 +1,6 @@
 ---
 id: pf-intro
-title: Prompt Flow Overview
+title: Prompt Flow On AzureML
 sidebar_position: 1
 slug: /prompt-flow-overview
 ---

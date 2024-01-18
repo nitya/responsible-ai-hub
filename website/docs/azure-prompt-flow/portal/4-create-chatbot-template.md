@@ -1,6 +1,6 @@
 ---
 id: pf-create-chatbot-template-lab4'
-title: 'Lab# 4: Create chatbot template'
+title: '4️⃣ | Create Chat Agent'
 sidebar_position: 4
 slug: /create-chatbot-template
 ---

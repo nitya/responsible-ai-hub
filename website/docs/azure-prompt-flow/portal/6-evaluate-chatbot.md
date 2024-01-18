@@ -1,6 +1,6 @@
 ---
 id: pf-evaluate-chatbot-lab6'
-title: 'Lab# 6: Evaluate chatbot'
+title: '6️⃣ | Evaluate Chat Agent'
 sidebar_position: 6
 slug: /evaluate-chatbot
 ---

@@ -1,6 +1,6 @@
 ---
 id: cs-intro
-title: Overview
+title: Azure Content Safety
 sidebar_position: 1
 slug: /content-safety-overview
 ---

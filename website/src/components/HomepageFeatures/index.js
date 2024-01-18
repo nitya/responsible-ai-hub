@@ -55,7 +55,7 @@ function Feature({ Svg, title, description, topic, topiclink, link }) {
         <a href={topiclink} target="_blank">
           <span className="badge badge--primary margin-horiz--xs">{topic}</span>
         </a>
-        <a href={link} target="_blank">
+        <a href={link}>
           <span className="badge badge--danger margin-horiz--xs">Launch Tutorial</span>
         </a>
       </div>

@@ -1,11 +1,10 @@
 ---
 id: openai-playground-lab5'
-title: 'Lab# 5: OpenAI Playground'
+title: '6️⃣ | OpenAI Playground'
 sidebar_position: 6
 slug: /openai-playground
 ---
 
-# Setup
 :::info PRE-REQUISITES FOR WORKSHOP
 
 If you **do not** have Azure OpenAI in your Azure subscription, then you can use this Chat playground.
