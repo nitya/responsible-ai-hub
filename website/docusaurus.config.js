@@ -48,8 +48,49 @@ const config = {
     ({
 
       image: 'img/rai-hub-banner.jpeg',
-      metadata: [{name: 'twitter:card', content: 'The Responsible AI Developer Hub provides free resources for skilling up on Responsible AI Principles and Practices. Start off with our three workshops on Responsible AI Dashboard, Azure Content Safety, and Prompt Flow on Azure ML. Visit https://aka.ms/rai-hub/website'}],
-
+      metadata: [
+        {
+          name: "og:title",
+          content: "The #ResponsibleAI Developer Hub: Skill Up Today!",
+        },
+        {
+          name: "og:description",
+          content: 'The Responsible AI Developer Hub provides free resources for skilling up on Responsible AI Principles and Practices. Start off with our three workshops on Responsible AI Dashboard, Azure Content Safety, and Prompt Flow on Azure ML. Visit https://aka.ms/rai-hub/website' 
+        },
+        {
+          name: "og:url",
+          content: "https://aka.ms/rai-hub/website",
+        },
+        {
+          name: "twitter:url",
+          content: "https://aka.ms/rai-hub/website",
+        },
+        {
+          name: "twitter:title",
+          content: "The #ResponsibleAI Developer Hub: Skill Up Today!",
+        },
+        {
+          name: "twitter:description",
+          content: 'The Responsible AI Developer Hub provides free resources for skilling up on Responsible AI Principles and Practices. Start off with our three workshops on Responsible AI Dashboard, Azure Content Safety, and Prompt Flow on Azure ML. Visit https://aka.ms/rai-hub/website' 
+        },
+        {
+          name: "twitter:image",
+          content:
+            "https://azure.github.io/responsible-ai-hub/img/rai-hub-banner.jpeg",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:creator",
+          content: "@nitya",
+        },
+        {
+          name: "twitter:site",
+          content: "@AzureAdvocates",
+        },
+      ],
 
       docs: {
         sidebar: {
@@ -77,13 +118,13 @@ const config = {
             type: 'dropdown',
             label: 'Workshops',
             position: 'left',
-            items: [ 
+            items: [
               {
                 type: 'docSidebar',
                 sidebarId: 'dashboardSidebar',
                 label: '1. Responsible AI Dashboard on Azure',
               },
-       
+
               {
                 type: 'docSidebar',
                 sidebarId: 'contentSafetySidebar',
@@ -95,7 +136,7 @@ const config = {
                 label: '3. Azure Prompt Flow on AzureML',
               }
             ],
-          }, 
+          },
           {
             type: 'doc',
             docId: 'badges',
@@ -111,13 +152,13 @@ const config = {
             type: 'dropdown',
             label: 'Collections',
             position: 'right',
-            items: [ 
+            items: [
               {
                 to: '/collections',
                 label: '1. Responsible AI Dashboard',
               },
             ],
-          },   
+          },
           {
             href: 'https://github.com/azure/responsible-ai-hub',
             position: "right",
