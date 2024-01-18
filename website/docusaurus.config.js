@@ -102,6 +102,11 @@ const config = {
             label: 'Earn Badges',
           },
           {
+            to: 'https://github.com/Azure/responsible-ai-hub/discussions',
+            position: 'right',
+            label: 'Discussions',
+          },
+          {
             type: 'dropdown',
             label: 'Collections',
             position: 'right',
