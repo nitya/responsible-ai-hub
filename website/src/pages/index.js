@@ -27,8 +27,32 @@ function HomepageHeader() {
   );
 }
 
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
+  const partners = [
+    {
+      title: 'Zindi Africa',
+      img: require('@site/static/img/partners/zindi.png'),
+      link: 'https://zindi.africa',
+      description: (
+        <>
+          About Zindi
+        </>
+      ),
+    },
+    {
+      title: 'Microsoft Learn Student Ambassadors',
+      img: require('@site/static/img/partners/mlsa.png'),
+      link: 'https://learn.microsoft.com',
+      description: (
+        <>
+          About Microsoft Learn Student Ambassadors
+        </>
+      ),
+    },
+  ];
+
   return (
     <Layout
       title={`Skill up on ${siteConfig.title}`}
