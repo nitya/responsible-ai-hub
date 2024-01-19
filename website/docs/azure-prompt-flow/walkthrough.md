@@ -13,44 +13,47 @@ The **Azure ML Prompt Flow** labs takes about an hour to complete end-to-end. It
 
 ### 1. Prepare Environment
 
-- [**00:00:02**](https://youtu.be/OZpgOToBDqw&t=2s) | Sign into Microsoft Learn. Launch the Lab
-- [**00:01:40**](https://youtu.be/OZpgOToBDqw&t=100s) | Lab Launched. View VM (left) & Instructions (Right)
-- [**00:02:19**](https://youtu.be/OZpgOToBDqw&t=139s) | Login. Open VS Code. Create Azure ML Workspace
-- [**00:04:59**](https://youtu.be/OZpgOToBDqw&t=299s) | Set env variables. Save config to conflig.json
+- [**00:03:30**](https://youtu.be/OZpgOToBDqw?t=210) | Launch GitHub codespace for Lab
+- [**00:04:31**](https://youtu.be/OZpgOToBDqw?t=271) | Prompt Flow overview (PowerPoint)
+- [**00:36:44**](https://youtu.be/OZpgOToBDqw?t=2204) | Open VS Code. Login to Azure.
+- [**00:39:37**](https://youtu.be/OZpgOToBDqw?t=2377) | Create Azure resource Set env variables. Save config to conflig.json
+- [**00:50:18**](https://youtu.be/OZpgOToBDqw?t=3018) | Download conflig.json. Select Kernel. Run All.
 
 
 ### 2. Load Data into Vector Datastore
 
-- [**00:07:22**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=442s) | Open Notebook #1. Select Kernel, Run All.
-- [**00:09:21**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=561s) | ⏳ Takes ~10 mins. Explore Code While You Wait. 
-- [**00:22:24**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1344s) |  Open Azure ML Studio. Verify data registered under "Data"
-- [**00:27:24**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1644s) |  Open Azure ML Studio. Track build progress under "Jobs"
-- [**00:28:47**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1727s) |  Open Azure ML Studio, Verify model registry under "Models"
-
-### 3. Add  Chat Template
-
-- [**00:28:47**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1727s)  |  Open Notebook #2. Select Kernel. Run All.
-- [**00:30:50**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1850s)  |  ⏳ Takes ~10 mins. Explore Code While You Wait. 
-- [**00:32:29**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1949s)  |  Task 1: Define the dashboard components
-- [**00:34:12**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2052s)  |  Task 2: Define the job to create the RAI Dashboard Insights
-- [**00:39:48**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2388s)  |  Task 3: Run job to create the RAI Dashboard
-- [**00:41:29**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2489s)  |  Open Azure ML Studio. Monitor "Jobs" Pipeline Progress.
-- [**00:43:33**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2613s)  |  Job Complete. Click "Models". Open RAI Dashboard tab.
-
-### 5. Configure API connection and compute runtime environment
-
-- [**00:44:30**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2670s) |  Open Azure ML Studio. Stay in RAI Dashboard Pane"
-- [**00:44:39**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2679s)  |  Task 1: Error Analysis
-- [**00:50:26**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3026s)  |  Task 2: Model Overview
-- [**00:55:32**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3332s)  |  Task 3:  Data Analysis
-- [**00:59:58**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3598s)  |  Task 4: Feature Analysis
-
-### 5. Build Chat Agent with your own data
-
-- [**01:05:47**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3947s) | Review Conclusion, Close the Lab
-- [**01:06:17**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3977s) | Knowledge Check
-- [**01:07:17**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=4037s) | Summary
-- [**01:07:41**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=4061s) | Unlock Achievement
+- [**00:52:51**](https://youtu.be/OZpgOToBDqw?t=3171) | Authenticate to Azure ML Studio
+- [**00:53:32**](https://youtu.be/OZpgOToBDqw?t=3212) | load your data source and destination
+- [**00:55:20**](https://youtu.be/OZpgOToBDqw?t=3320) | create compute instance
+- [**00:55:25**](https://youtu.be/OZpgOToBDqw?t=3325) | create OpenAI connection
+- [**00:55:55**](https://youtu.be/OZpgOToBDqw?t=3355) | use text embedding model deployment. submit pipeline job
+- [**00:56:47**](https://youtu.be/OZpgOToBDqw?t=3407) | ⏳ Takes ~10 mins. Monitor Vector Index job. 
+- [**00:57:12**](https://youtu.be/OZpgOToBDqw?t=3432) |  Get vector datastore path.
 
 
-### 6. Evaluate the Chat Flow
+### 3. API connections and Compute runtime 
+
+- [**00:58:56**](https://youtu.be/OZpgOToBDqw?t=3536)  |  Add or Update API Connection
+- [**00:59:45**](https://youtu.be/OZpgOToBDqw?t=3585)  |  Create a Runtime 
+
+
+### 4. Create a Chat Agent
+
+- [**01:09:45**](https://youtu.be/OZpgOToBDqw?t=4185) |  Add Embeddings for input
+- [**01:12:08**](https://youtu.be/OZpgOToBDqw?t=4329)  |  Add Vector db Lookup. Use your own data
+- [**01:14:17**](https://youtu.be/OZpgOToBDqw?t=4457)  |  Add System Prompt and rules
+- [**01:18:01**](https://youtu.be/OZpgOToBDqw?t=4681)  |  Add response field
+- [**01:20:10**](https://youtu.be/OZpgOToBDqw?t=4810)  |  Test the chat agent
+- [**01:24:33**](https://youtu.be/OZpgOToBDqw?t=5073)  |  Add prompt variants
+- [**01:29:12**](https://youtu.be/OZpgOToBDqw?t=5352)  |  Test Chat with another prompt variant
+
+
+### 5. Evaluate Chat flow performance
+
+- [**01:31:46**](https://youtu.be/OZpgOToBDqw?t=5506) | Add Evaluation
+- [**01:33:08**](https://youtu.be/OZpgOToBDqw?t=5588) | Choose variant(s) to evaluate
+- [**01:33:41**](https://youtu.be/OZpgOToBDqw?t=5621) | Add test data
+- [**01:34:50**](https://youtu.be/OZpgOToBDqw?t=5690) | Select Evaluation template
+- [**01:36:00**](https://youtu.be/OZpgOToBDqw?t=5760) | Select performance metrics.  Mapping test data fields
+- [**01:38:33**](https://youtu.be/OZpgOToBDqw?t=5913) | ⏳ Run Evaluation. Takes ~20 mins.
+- [**01:39:18**](https://youtu.be/OZpgOToBDqw?t=5958) | View Evaluation results
