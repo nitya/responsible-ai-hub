@@ -40,12 +40,17 @@ az account list-locations --query "[*].name" --out tsv | sort
 ```shell
 az configure --defaults group=<resource-group-name>
 ```
+
+:::warning If you DO NOT Azure OpenAI available in your subscription, run the following command. Otherwise, use the command in the next step.
+:::
+
 6. Use if you **DO NOT HAVE Azure OpenAI** available in your subscription, run: 
 
 ```shell
 az deployment group create --name rai-workshop --template-file no-openai/main.bicep 
 ```
-Otherwise, use if you **DO HAVE Azure OpenAI** available in your subscription, 
+7. Use if you **HAVE Azure OpenAI** available in your subscription, run: 
+
 ```shell
 az deployment group create --name rai-workshop --template-file use-openai/main.bicep 
 ```

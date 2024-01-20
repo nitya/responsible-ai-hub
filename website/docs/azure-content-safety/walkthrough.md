@@ -13,44 +13,37 @@ The **Azure Content Safety** labs takes about an hour to complete end-to-end. It
 
 ### 1. Prepare Environment
 
-- [**00:00:02**](https://youtu.be/OZpgOToBDqw&t=2s) | Sign into Microsoft Learn. Launch the Lab
-- [**00:01:40**](https://youtu.be/OZpgOToBDqw&t=100s) | Lab Launched. View VM (left) & Instructions (Right)
-- [**00:02:19**](https://youtu.be/OZpgOToBDqw&t=139s) | Login. Open VS Code. Create Azure ML Workspace
-- [**00:04:59**](https://youtu.be/OZpgOToBDqw&t=299s) | Set env variables. Save config to conflig.json
+- [**00:12:41**](https://youtu.be/OZpgOToBDqw?t=271) | Content Safety overview (PowerPoint)
+- [**00:47:46**](https://youtu.be/UM9Ohefo4zU?t=2866) | Launch GitHub codespace for Lab
+- [**00:50:03**](https://youtu.be/UM9Ohefo4zU?t=3003) | Open VS Code. Login to Azure.
+- [**00:53:20**](https://youtu.be/OZpgOToBDqw?t=2377) | Create Azure resource Set env variables. 
 
 
-### 2. Load Data into Vector Datastore
+### 2. Analyze Text and Image
 
-- [**00:07:22**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=442s) | Open Notebook #1. Select Kernel, Run All.
-- [**00:09:21**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=561s) | ⏳ Takes ~10 mins. Explore Code While You Wait. 
-- [**00:22:24**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1344s) |  Open Azure ML Studio. Verify data registered under "Data"
-- [**00:27:24**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1644s) |  Open Azure ML Studio. Track build progress under "Jobs"
-- [**00:28:47**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1727s) |  Open Azure ML Studio, Verify model registry under "Models"
-
-### 3. Add  Chat Template
-
-- [**00:28:47**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1727s)  |  Open Notebook #2. Select Kernel. Run All.
-- [**00:30:50**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1850s)  |  ⏳ Takes ~10 mins. Explore Code While You Wait. 
-- [**00:32:29**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=1949s)  |  Task 1: Define the dashboard components
-- [**00:34:12**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2052s)  |  Task 2: Define the job to create the RAI Dashboard Insights
-- [**00:39:48**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2388s)  |  Task 3: Run job to create the RAI Dashboard
-- [**00:41:29**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2489s)  |  Open Azure ML Studio. Monitor "Jobs" Pipeline Progress.
-- [**00:43:33**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2613s)  |  Job Complete. Click "Models". Open RAI Dashboard tab.
-
-### 5. Configure API connection and compute runtime environment
-
-- [**00:44:30**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2670s) |  Open Azure ML Studio. Stay in RAI Dashboard Pane"
-- [**00:44:39**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=2679s)  |  Task 1: Error Analysis
-- [**00:50:26**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3026s)  |  Task 2: Model Overview
-- [**00:55:32**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3332s)  |  Task 3:  Data Analysis
-- [**00:59:58**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3598s)  |  Task 4: Feature Analysis
-
-### 5. Build Chat Agent with your own data
-
-- [**01:05:47**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3947s) | Review Conclusion, Close the Lab
-- [**01:06:17**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=3977s) | Knowledge Check
-- [**01:07:17**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=4037s) | Summary
-- [**01:07:41**](https://www.youtube.com/watch?v=oYOTu-cxmMg&t=4061s) | Unlock Achievement
+- [**01:05:02**](https://youtu.be/UM9Ohefo4zU?t=3902) | Open analyze Text Notebook. Select Kernel, Run All.
+- [**01:08:03**](https://youtu.be/UM9Ohefo4zU?t=4083) | Open analyze Image Notebook. Select Kernel, Run All.
 
 
-### 6. Evaluate the Chat Flow
+### 3. Playground for NO OpenAI azure subscriptions
+
+- [**01:11:39**](https://youtu.be/UM9Ohefo4zU?t=4299)  |  Requst Access key. 
+- [**01:13:12**](https://youtu.be/UM9Ohefo4zU?t=4392)  |   Launch OpenAI Playground proxy. Authenticate API key.
+- [**01:14:28**](https://youtu.be/UM9Ohefo4zU?t=4468)  |  Enter user input prompts
+- [**01:16:58**](https://youtu.be/UM9Ohefo4zU?t=4618)  |  Add System Prompt rules. Test user input prompts. 
+- [**01:20:15**](https://youtu.be/UM9Ohefo4zU?t=4815)  |  Jailbreaking
+
+
+### 4. Playground for Azure OpenAI enabled subscriptions
+
+- [**01:25:41**](https://youtu.be/UM9Ohefo4zU?t=5141) |  Launch Azure portal.  Open Azure OpenAI Playground. (portal.azure.com)
+- [**01:28:38**](https://youtu.be/UM9Ohefo4zU?t=5318)  |  Enter user input prompts
+- [**01:29:46**](https://youtu.be/UM9Ohefo4zU?t=5386)  |  Add System Prompt rules. Clear Chat. Test user input prompts
+
+
+### 5. Handle Jailbreaks
+
+- [**01:34:13**](https://youtu.be/UM9Ohefo4zU?t=5653)  |  Jailbreaks
+- [**01:36:34**](https://youtu.be/UM9Ohefo4zU?t=5794)  |  Add Content Safety severity levels. Enable Jailbreak detection. 
+- [**01:40:29**](https://youtu.be/UM9Ohefo4zU?t=6029)  |  Add Jailbreak, content severity levels to GPT-3 deployment.
+- [**01:41:45**](https://youtu.be/UM9Ohefo4zU?t=6105)  |  Test jailbreak detection.
