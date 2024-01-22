@@ -27,4 +27,18 @@ To complete this workshop, you need the following:
 2. GitHub account with access to GitHub Codespaces.
 3. Install Python 3.8 or higher.
 
+## 📚 | Log in to your Azure account
+1. Sign in to the [Azure portal](https://portal.azure.com/).  Follow the instructions to authenticate an email and password.  
+
+![Azure Portal](/img/tutorial/azure-login.png)
+
+**NOTE**: *If you were provided a subscription with a usernae and password, you can use that to login.*
+
+2. Select **Resource groups**.
+
+    ![Resource Groups](/img/tutorial/azure-resource-group.png)
+    
+3. This should list your resource groups.  If you don't have any, you can create one later in the labs.
+ 
+
 
