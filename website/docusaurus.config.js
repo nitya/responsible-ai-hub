@@ -144,6 +144,11 @@ const config = {
             label: 'Earn Badges',
           },
           {
+            to: '/calendar',
+            position: 'right',
+            label: 'Calendar',
+          },
+          {
             to: 'https://github.com/Azure/responsible-ai-hub/discussions',
             position: 'right',
             label: 'Discussions',
