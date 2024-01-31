@@ -3,7 +3,7 @@ name: Zindi Community Event Submission
 about: Submit a new Zindi Ambassador Event for inclusion in our Calendar
 title: "[EVENT FOR CALENDAR] Zindi Community Event"
 labels: zindi-community
-assignees: nitya
+assignees: nitya, ruyakubu
 
 ---
 
