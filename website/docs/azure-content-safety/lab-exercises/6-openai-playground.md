@@ -18,7 +18,7 @@ For this workshop we are going to use an interface that is build on top of the A
 
 ## Getting started
 
-🚀 | **Connect to GitHub** - Log into GitHub on [on this page](https://aka.ms/rai-hub/get-playground-key) to access the OpenAI playground.
+🚀 | **Connect to GitHub** - Log into GitHub on the [Key registration page](https://aka.ms/rai-hub/get-playground-key) to access the OpenAI playground.
 
 ![](/img/tutorial/GitHub-static-web-auth.png)
 
