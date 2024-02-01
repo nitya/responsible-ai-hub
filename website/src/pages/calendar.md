@@ -30,4 +30,3 @@ The events below are run by community partners, and led by community ambassadors
 |:---|:---|:---|:---|
 | Feb 01 | _[Sample MLSA Event](#)_ | Bengaluru, India | 🎓 - 1️⃣  |
 | Feb 02 | _[Sample Zindi Event](#)_ | Lagos, Nigeria | 🌍 - 1️⃣ - 2️⃣ - 3️⃣  |
-| Mar 04 | _[Microsoft & Zindi Day](http://www.go.com)_ | Alexandria, Egypt | 🌍 - 2️⃣  |

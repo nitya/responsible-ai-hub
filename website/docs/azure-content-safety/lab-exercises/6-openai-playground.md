@@ -18,11 +18,17 @@ For this workshop we are going to use an interface that is build on top of the A
 
 ## Getting started
 
-🗝 | **Get your event-key** - from your workshop organizers at the start of the event.
+🚀 | **Connect to GitHub** - Log into GitHub on [on this page](https://aka.ms/rai-hub/get-playground-key) to access the OpenAI playground.
 
-📬 | **Get your access-key** - enter event key in [this form](https://workshop-key.globalai.community/) to receive your access-key via email.
+![](/img/tutorial/GitHub-static-web-auth.png)
 
-💬 | **Use the access-key** - visit the [Global AI Playground](https://playground.globalai.community/), enter access-key in the *API Key* textbox at top right, and click Authorize.
+✅| **Give your consent** - Click on the **Grant Consent** button to allow authorization to the page.  Then click on **Register**.
+
+🗝   | **Get generated API Key** - Click on the copy icon for the API key.
+
+ ![](/img/tutorial/get-api-key.png)   
+
+💬 | **Use the API key** - visit the [Responsible AI workshop Playground](https://aka.ms/rai-hub/proxy-playground), enter access-key in the *API Key* textbox at top right, and click Authorize. 
 
 ![](/img/tutorial/06-api-key-authenticate.png)
 
