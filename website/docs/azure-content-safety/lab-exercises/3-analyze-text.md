@@ -22,7 +22,7 @@ Let’s explore how the Content Safety API handles text.
 6.	Verify that all cells ran successfully.
 7.	In cell #3, the input_text set to:
 ```shell
-You're studid
+You're stupid
 ```
 8.	In the last cell, you’ll see that the Content Safety API found the input text to be “Hate” content with a severity of 2.
 9.	Now try changing the input_text to your own text and see what the output will be. 
