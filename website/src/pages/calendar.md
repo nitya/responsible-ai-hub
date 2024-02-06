@@ -28,5 +28,6 @@ The events below are run by community partners, and led by community ambassadors
 
 | When | What | Where | Type |
 |:---|:---|:---|:---|
+| Feb 06 | _[Microsoft Responsible AI training workshop](https://lu.ma/wugq0zrv)_ | National Higher Polytechnic School of Douala, Douala, Cameroon | 🌍 - 1️⃣ - 2️⃣  |
 | Feb 01 | _[Sample MLSA Event](#)_ | Bengaluru, India | 🎓 - 1️⃣  |
 | Feb 02 | _[Sample Zindi Event](#)_ | Lagos, Nigeria | 🌍 - 1️⃣ - 2️⃣ - 3️⃣  |
