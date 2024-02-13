@@ -70,19 +70,19 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Azure Content Safety for OpenAI',
+    title: 'Azure Content Safety for Azure OpenAI',
     Svg: require('@site/static/img/workshop-safety.svg').default,
     link: 'docs/content-safety-overview',
     topic: 'Get The Code',
     topiclink: 'https://aka.ms/rai-hub/content-safety-workshop',
     description: (
       <>
-        This is a hands-on lesson on prompt engineering, detecting jailbreaks, offensive or inappropriate content in text and images quickly and efficiently. Includes identifying sexual, violent, hate, and self-harm content.
+        This is a hands-on lesson on prompt engineering, detecting jailbreaks, offensive or inappropriate content in text and images quickly and efficiently. Includes mitigating content harm such as sexual, violent, hate, and self-harm content.
       </>
     ),
   },
   {
-    title: 'Azure ML Prompt Flow',
+    title: 'Azure Machine Learning Prompt Flow',
     Svg: require('@site/static/img/workshop-prompt.svg').default,
     link: 'docs/prompt-flow-overview',
     topic: 'Get The Code',
