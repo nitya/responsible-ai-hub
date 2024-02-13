@@ -5,7 +5,7 @@ sidebar_position: 3
 slug: /rai-contentsafety-walkthru
 ---
 
-The **Azure Content Safety** labs takes about an hour to complete end-to-end. It can take longer if you factor in time for exploration and data entry. You might also run into issues or have questions about what _should have happened_ at a specific point in the lab, to help you debug or understand concepts better.
+The **Azure AI Content Safety** labs takes about an hour to complete end-to-end. It can take longer if you factor in time for exploration and data entry. You might also run into issues or have questions about what _should have happened_ at a specific point in the lab, to help you debug or understand concepts better.
 
 **This video recording of the labs can help**. The tables below show you the timestamps for each relevant step, within this video. Just visit the YouTube page and open the description to get _pre-linked_ key moments to jump directly to the relevant segments to review walkthrough steps for reference.
 
