@@ -5,7 +5,7 @@ sidebar_position: 2
 slug: /content-safety/resource
 ---
 
-To complete this lesson, you would need a Azure OpenAI and Azure Content Safety. If you don't have OpenAI in your subscription, you'll only be creating an Azure Content Safety resource.
+To complete this lesson, you would need a Azure OpenAI and Azure AI Content Safety. If you don't have OpenAI in your subscription, you'll only be creating an Azure AI Content Safety resource.
 
 1. At the commmand prompt, set the python environment to Python 3.8
 
