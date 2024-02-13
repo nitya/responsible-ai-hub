@@ -44,7 +44,7 @@ function Partner({ logo, title, link, description }) {
   return (
     <div className={clsx('col col--4', styles.contentItem)}>
       <div className="avatar avatar--vertical">
-        <Image className="avatar__photo avatar__photo--xl" role="img" img={logo} />
+        <Image className="avatar__photo avatar__photo--xl" role="img" alt={description} img={logo} />
         <div className="avatar__intro margin-vert--md">
           <h3><a href={link}>{title}</a></h3>
           <div className="avatar__subtitle">
@@ -99,7 +99,7 @@ function Feature({ Svg, title, description, topic, topiclink, link }) {
   return (
     <div className={clsx('col col--4', styles.contentItem)}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className={styles.featureSvg} role="img" title={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -110,7 +110,7 @@ function Feature({ Svg, title, description, topic, topiclink, link }) {
           <span className="badge badge--primary margin-horiz--xs">{topic}</span>
         </a>
         <a href={link}>
-          <span className="badge badge--danger margin-horiz--xs">Launch Tutorial</span>
+          <span className="badge badge--secondary margin-horiz--xs">Launch Tutorial</span>
         </a>
       </div>
     </div>

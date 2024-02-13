@@ -10,7 +10,7 @@ function RowCardItem({ img, title, description, link }) {
       <div className="col col--4">
         <a href={link} target="_blank">
           <div className="text--center">
-            <Image className={styles.colImg} img={img} />  
+            <Image className={styles.colImg} img={img} alt={description} />  
           </div>
         </a>
       </div>
