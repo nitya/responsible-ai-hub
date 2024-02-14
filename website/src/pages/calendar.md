@@ -28,9 +28,10 @@ The events below are run by community partners, and led by community ambassadors
 
 | When | What | Where | Type |
 |:---|:---|:---|:---|
-| Feb 27 | _[Azure Responsible AI workshop](https://lu.ma/x7v7wvxh)_ | Online - Virtual Event | 🌍 - 1️⃣ - 2️⃣  |
-| Feb 27 | _[Azure Responsible AI workshop](https://lu.ma/x7v7wvxh)_ | Online - Virtual Event | 🌍 - 1️⃣ - 2️⃣  |
-| Feb 12 | _[Azure Responsible AI workshop](https://lu.ma/o9fklaxp)_ | Kenyatta University, Nairobi, Kenya | 🌍 - 1️⃣  |
+| Feb 28 | _[Microsoft Responsible AI workshop](https://lu.ma/oqwoa774)_ | Alet-Eleme, Rivers State, Nigeria | 🌍 - 1️⃣ - 2️⃣ - 3️⃣  |
+| Feb 27 | _[Microsoft Responsible AI workshop](https://lu.ma/x7v7wvxh)_ | Online - Virtual Event | 🌍 - 1️⃣ - 2️⃣  |
+| Feb 27 | _[Microsoft Responsible AI workshop](https://lu.ma/x7v7wvxh)_ | Online - Virtual Event | 🌍 - 1️⃣ - 2️⃣  |
+| Feb 12 | _[Microsoft Responsible AI workshop](https://lu.ma/o9fklaxp)_ | Kenyatta University, Nairobi, Kenya | 🌍 - 1️⃣  |
 | Feb 06 | _[Microsoft Responsible AI training workshop](https://lu.ma/wugq0zrv)_ | National Higher Polytechnic School of Douala, Douala, Cameroon | 🌍 - 1️⃣ - 2️⃣  |
 | Feb 01 | _[Sample MLSA Event](#)_ | Bengaluru, India | 🎓 - 1️⃣  |
 | Feb 02 | _[Sample Zindi Event](#)_ | Lagos, Nigeria | 🌍 - 1️⃣ - 2️⃣ - 3️⃣  |
