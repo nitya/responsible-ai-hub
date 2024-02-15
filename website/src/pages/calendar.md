@@ -28,6 +28,7 @@ The events below are run by community partners, and led by community ambassadors
 
 | When | What | Where | Type |
 |:---|:---|:---|:---|
+| Feb 28 | _[AI in It's Simplest Terms](https://lu.ma/fn0z4cku)_ | Kampala uganda | 🌍 - 1️⃣ - 2️⃣ - 3️⃣  |
 | Feb 28 | _[Microsoft Responsible AI workshop](https://lu.ma/oqwoa774)_ | Alet-Eleme, Rivers State, Nigeria | 🌍 - 1️⃣ - 2️⃣ - 3️⃣  |
 | Feb 27 | _[Microsoft Responsible AI workshop](https://lu.ma/x7v7wvxh)_ | Online - Virtual Event | 🌍 - 1️⃣ - 2️⃣  |
 | Feb 27 | _[Microsoft Responsible AI workshop](https://lu.ma/x7v7wvxh)_ | Online - Virtual Event | 🌍 - 1️⃣ - 2️⃣  |
