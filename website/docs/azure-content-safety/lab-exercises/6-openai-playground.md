@@ -20,6 +20,10 @@ For this workshop we are going to use an interface that is build on top of the A
 
 🚀 | **Connect to GitHub** - Log into GitHub on the [Key registration page](https://aka.ms/rai-hub/get-playground-key) to access the OpenAI playground.
 
+![](/img/tutorial/proxy-gh-register.png)
+
+Follow the prompts to accept access to the playground with your GitHub account.
+
 ![](/img/tutorial/GitHub-static-web-auth.png)
 
 ✅| **Give your consent** - Click on the **Grant Consent** button to allow authorization to the page.  Then click on **Register**.
@@ -28,7 +32,7 @@ For this workshop we are going to use an interface that is build on top of the A
 
  ![](/img/tutorial/get-api-key.png)   
 
-💬 | **Use the API key** - visit the [Responsible AI workshop Playground](https://aka.ms/rai-hub/proxy-playground), enter access-key in the *API Key* textbox at top right, and click Authorize. 
+💬 | **Use the API key** - Launch the playground by clicking on the **Playground** link [Responsible AI workshop Playground](https://polite-ground-030dc3103.4.azurestaticapps.net/), enter access-key in the *API Key* textbox at top right, and click Authorize. 
 
 ![](/img/tutorial/06-api-key-authenticate.png)
 
