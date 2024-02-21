@@ -73,7 +73,7 @@ You can select one or more evaluation templates to validate your flow.  It depen
 
 ![](/img/tutorial/pf-visualize-output.png)
 
-26.	The **Runs & metrics** section shows a summary score for gpt_groundedness, gpt_retrieval_score, and gpt_relevance.  The **Outputs** section shows the detailed results for each of the 3 metrics.
+26.	The **Runs & metrics** section shows a summary score for gpt_groundedness and gpt_relevance.  The **Outputs** section shows the detailed results for each of the 2 metrics.
 
  ![](/img/tutorial/evaluate-results.png)
 
