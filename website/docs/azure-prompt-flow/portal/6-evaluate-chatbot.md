@@ -20,7 +20,15 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 
 ![](/img/tutorial/evaluate.png)
 
-4.	On the **Batch run & Evaluate** page, select the **Next** button
+:::info VARIANT FOR EVALUATION
+You can evaluate the default variant of your prompt or select the variants your prefer.  This is a good way to compare different variants and see which prompts have a better performance.
+:::
+
+4.	On the **Batch run & Evaluate** page, select **Select a node to run variants**.  Choose all the variants and click on **Next**. 
+
+![](/img/tutorial/variant-eval-select.png)
+
+
 5.	Under **Data**, select the **test-contoso-dental-data** dataset you created earlier.  A preview of the top 5 rows of the data should be displayed at the bottom of the page.
 6.	Under Input mapping, enter the open and close brackets **[]** for the value of **chat_history**.
 7.	Click in the Value textbox for the **question** field and enter `${data.question}`.
@@ -28,12 +36,12 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 ![](/img/tutorial/evaluate-input-flow.png)
  
 8.	Click the **Next** button.
-9.	On the **Select evaluation** page, select the checkbox for the **QnA RAG Evaluation**.
+9.	On the **Select evaluation** page, select the checkbox for the **QnA Groundedness Evaluation**.
 
 ![](/img/tutorial/evaluation-gallery.png)
  
 10.	Click the **Next** button.
-11.	Click on the right arrow **“>”** to expand the **QnA RAG Evaluation** settings.
+11.	Click on the right arrow **“>”** to expand the **QnA Groundedness Evaluation** settings.
 
 ![](/img/tutorial/evaluate-qna-fields.png)
  
