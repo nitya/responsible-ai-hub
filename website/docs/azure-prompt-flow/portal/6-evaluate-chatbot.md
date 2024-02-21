@@ -53,10 +53,7 @@ You can select one or more evaluation templates to validate your flow.  It depen
 12. Select the *test-contoso-dental-dataset* dataset your uploaded earlier for the **Choose data asset for evaluation** field.
 13. Enter `${run.outputs.answer}` for the **answer** field.
 14. Click on the Data Source textbox and enter `${data.question}` for the **question** field. 
-15.	Enter `${run.outputs.context}` for the **context**field.
-
-![](/img/tutorial/pf-rag-eval-input.png)
-
+15.	Enter `${run.outputs.context}` for the **context** field.
 16.	On the right-hand side of the page, scroll down to the bottom of the page.
 17.	Select your AzureOpenAI connection name (e.g. azure-openai-conn) for the **Connection** fields.
 18.	The **Deployment name / Model** should automatically population the your AzureOpenAI deployment name.
