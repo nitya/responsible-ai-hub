@@ -29,7 +29,7 @@ After the workshop, you will learn how to:
 To complete this workshop, you need the following:
 1. Login or Signup for a [Free Azure account](https://azure.microsoft.com/free/)
 2. Azure OpenAI service enabled on your Azure account.  [Request access](https://aka.ms/oai/access)
-3. GitHub account with access to GitHub Codespaces.  [Free Codespace signup](https://github.com/features/codespaces)
+3. GitHub account with access to GitHub Codespaces.  [Free Codespaces signup](https://github.com/features/codespaces)
 4. Basic understanding of Generative AI concepts
 5. If you're new to generative AI, we recommend you take the [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst) before you start this workshop.
 5. Install Python 3.8 or higher.
