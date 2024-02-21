@@ -36,7 +36,12 @@ You can evaluate the default variant of your prompt or select the variants your 
 ![](/img/tutorial/evaluate-input-flow.png)
  
 8.	Click the **Next** button.
-9.	On the **Select evaluation** page, select the checkbox for the **QnA Groundedness Evaluation**.
+
+:::info Multiple EVALUATION
+You can select one or more evaluation templates to validate your flow.  It depends on your use case and which performance insights you want to get.
+:::
+
+9.	On the **Select evaluation** page, select the checkbox for the **QnA Groundedness Evaluation** and **QnA Relevance Evaluation**.
 
 ![](/img/tutorial/evaluation-gallery.png)
  
@@ -45,40 +50,37 @@ You can evaluate the default variant of your prompt or select the variants your 
 
 ![](/img/tutorial/evaluate-qna-fields.png)
  
-12.	Select the *test-contoso-dental-dataset* dataset your uploaded earlier for the **Choose data asset for evaluation** field.
-13.	For the **metric** field, cope and paste the following text:
-```bash
-gpt_groundedness,gpt_retrieval_score,gpt_relevance  
-```
-14. Enter `${run.outputs.answer}` for the **answer** field.
-15. Click on the Data Source textbox and enter `${data.question}` for the **question** field. 
-16.	Enter `${run.outputs.context}` for the **documents**field.
+12. Select the *test-contoso-dental-dataset* dataset your uploaded earlier for the **Choose data asset for evaluation** field.
+13. Enter `${run.outputs.answer}` for the **answer** field.
+14. Click on the Data Source textbox and enter `${data.question}` for the **question** field. 
+15.	Enter `${run.outputs.context}` for the **context**field.
 
 ![](/img/tutorial/pf-rag-eval-input.png)
 
-17.	On the right-hand side of the page, scroll down to the bottom of the page.
-18.	Select your AzureOpenAI connection name (e.g. azure-openai-conn) for the **Connection** fields.
-19.	The **Deployment name / Model** should automatically population the your AzureOpenAI deployment name.
+16.	On the right-hand side of the page, scroll down to the bottom of the page.
+17.	Select your AzureOpenAI connection name (e.g. azure-openai-conn) for the **Connection** fields.
+18.	The **Deployment name / Model** should automatically population the your AzureOpenAI deployment name.
  
- ![](/img/tutorial/evaluate-connection.png)
+ ![](/img/tutorial/ground-eval-conn.png)
 
-20.	Click the **Next** button. 
-21.	Finally, click on the **Submit** button.
-22.	To monitor the run progress, click on the **Prompt flow** navigation option.  Then click on the **Runs** tab
-
+19. Click on the right arrow **“>”** to expand the **QnA Relevance Evaluation** settings.
+20. Repeat the same selects you chose for the QnA Groundness section.
+21.	Click the **Next** button. 
+22.	Finally, click on the **Submit** button.
+23.	To monitor the run progress, click on the **Prompt flow** navigation option.  Then click on the **Runs** tab
 
 ![](/img/tutorial/start-evaluate.png)
  
-23.	Click the Refresh button to update the run status. The run should take ~15 minutes.
-24.	Click on the radio button for the QnA RAG Evaluation, the press the **Visualize outputs** to view the results.
+24.	Click the Refresh button to update the run status. The run should take ~15 minutes.
+25.	Click on the radio button for the QnA RAG Evaluation, the press the **Visualize outputs** to view the results.
 
 ![](/img/tutorial/pf-visualize-output.png)
 
-25.	The **Runs & metrics** section shows a summary score for gpt_groundedness, gpt_retrieval_score, and gpt_relevance.  The **Outputs** section shows the detailed results for each of the 3 metrics.
+26.	The **Runs & metrics** section shows a summary score for gpt_groundedness, gpt_retrieval_score, and gpt_relevance.  The **Outputs** section shows the detailed results for each of the 3 metrics.
 
  ![](/img/tutorial/evaluate-results.png)
 
-26.	The score will range from 1 to 5, where 1 is the worst and 5 is the best performance.
+27.	The score will range from 1 to 5, where 1 is the worst and 5 is the best performance.
 
 ## Summary
 
