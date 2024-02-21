@@ -1,6 +1,6 @@
 ---
 id: openai-playground-lab5'
-title: '6️⃣ | OpenAI Playground'
+title: '6️⃣ | OpenAI Playground (optional)'
 sidebar_position: 6
 slug: /openai-playground
 ---
