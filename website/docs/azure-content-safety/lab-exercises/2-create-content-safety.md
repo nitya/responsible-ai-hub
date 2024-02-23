@@ -49,12 +49,13 @@ az configure --defaults group=<resource-group-name>
 ```shell
 az deployment group create --name rai-workshop --template-file no-openai/main.bicep 
 ```
-7. Use if you **HAVE Azure OpenAI** available in your subscription, run: 
+**NOTE**:  You will receive an OpenAI error if you do not have OpenAI in your subscription.  
+
+Otherwise, if you **HAVE Azure OpenAI** available in your subscription, run: 
 
 ```shell
 az deployment group create --name rai-workshop --template-file use-openai/main.bicep 
 ```
-**NOTE**:  You will receive an OpenAI error if you do not have OpenAI in your subscription.  
 
 7. See the environment variables for your resources.
 ```shell
