@@ -48,14 +48,19 @@ Enter the code provided in the browser to authenticate to Azure.
 ```shell
 az account set --subscription <your-subscription-id>
 ```
+
+:::info AZURE-OpenAI-LOCATION
+If you have **Azure OpenAI enabled** in your Azure subscription, pick a location name close to you that **GPT-3.5-Turbo** model is available: ***australiaeast***,
+***canadaeast***, ***eastus***, ***eastus2***, ***francecentral***, ***japaneast***, ***southcentralus***, ***switzerlandnorth***, ***swedencentral***,
+***uksouth***, ***westcentralus***, ***westus***, and ***westeurope***.
+
+Otherwise, use a general Azure location lookup by running this script `az account list-locations --query "[*].name" --out tsv | sort`
+
+:::
+
 4.	Create a resource group in the region closest to you.
 ```shell
 az group create --name <resource-group-name> --location <region-name>
-```
-
-**NOTE**.  Find an Azure region that is closest to you by running this (e.g. ***westus***,  ***eastus*** ***westeurope***, ***southafricanorth***,... etc).  
-```shell
-az account list-locations --query "[*].name" --out tsv | sort
 ```
 
 5. Set the resource group as the default resource group for the Azure CLI.
