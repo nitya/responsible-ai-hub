@@ -27,7 +27,7 @@ Enter the code provided in the browser to authenticate to Azure.
 az account set --subscription <your-subscription-id>
 ```
 
-:::info AZURE-OpenAI-LOCATION
+:::info GPT-3.5-Turbo LOCATIONS
 If you have **Azure OpenAI enabled** in your Azure subscription, pick a location name close to you that **GPT-3.5-Turbo** model is available: ***australiaeast***,
 ***canadaeast***, ***eastus***, ***eastus2***, ***francecentral***, ***japaneast***, ***southcentralus***, ***switzerlandnorth***, ***swedencentral***,
 ***uksouth***, ***westcentralus***, ***westus***, and ***westeurope***.
