@@ -5,7 +5,7 @@ sidebar_position: 6
 slug: /evaluate-chatbot
 ---
 
-You can unit test your Flow.  However, Prompt flow provides a gallery of sample evaluation flows your can use to test you Flow in bulk.  For example, classification accuracy, QnA Groundedness, QnA Relevant, QnA Similarity, QnA F1 Score etc.  This enables you to test how well your LLM is performing.  In addition, you have the ability to examine which of your variant prompts are performing better.   In this example, we’ll use the **QnA RAG Evaluation** template to test our flow.
+You can unit test your Flow.  However, Prompt flow provides a gallery of sample evaluation flows your can use to test you Flow in bulk.  For example, classification accuracy, QnA Groundedness, QnA Relevant, QnA Similarity, QnA F1 Score etc.  This enables you to test how well your LLM is performing.  In addition, you have the ability to examine which of your variant prompts are performing better.   In this example, we’ll use the **QnA Groundedness Evaluation** and **QnA Relevance Evaluation** template to test our flow.
 
 
 ## Evaluate chatbot flow
@@ -24,7 +24,7 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 You can evaluate the default variant of your prompt or select the variants your prefer.  This is a good way to compare different variants and see which prompts have a better performance.
 :::
 
-4.	On the **Batch run & Evaluate** page, select **Select a node to run variants**.  Choose all the variants and click on **Next**. 
+4.	On the **Batch run & Evaluate** page, select **Select a node to run variants**.  Choose **variant_1 (default)** and click on **Next**. 
 
 ![](/img/tutorial/variant-eval-select.png)
 
