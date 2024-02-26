@@ -10,7 +10,7 @@ You can unit test your Flow.  However, Prompt flow provides a gallery of sample 
 
 ## Evaluate chatbot flow
 
-1. On the **Outputs** section, click on the **+ Add output** button.  Then enter **context** for the **Name** field and `${response.output}` for the value.
+1. On the **Outputs** section, click on the **+ Add output** button.  Then enter **context** for the **Name** field and `${chat.output}` for the value.
 
 ![](/img/tutorial/00-output-eval-content.png)
 
