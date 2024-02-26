@@ -66,14 +66,13 @@ az group create --name <resource-group-name> --location <region-name>
 ```shell
 az configure --defaults group=<resource-group-name>
 ```
-6. If you **do not** have an Azure OpenAI available in your subscription, complete the step.
+6. Run the following command to create your Azure openAI, content safety and Azure Machine Learning resources:
 
-Otherwise, run the following command.
 ```shell
 az deployment group create --name rai-workshop --template-file main.bicep
 ```
 
-NOTE: For AzureMLname, use only lowercase letters and numbers.  For example, raiworkshop1234.  Save for environment name.
+NOTE: For **AzureMLname**, use only lowercase letters.  For example, *amlwsyourfirstname*.  **DO NOT** use numbers or special characters.  
 
 7. See the environment variables for your resources.
 ```shell
