@@ -68,7 +68,7 @@ You can select one or more evaluation templates to validate your flow.  It depen
 
 ![](/img/tutorial/start-evaluate.png)
  
-24.	Click the Refresh button to update the run status. The run should take ~15 minutes.
+24.	Click the Refresh button to update the run status. The run should take ~60 minutes.
 25.	Click on the radio button for the QnA RAG Evaluation, the press the **Visualize outputs** to view the results.
 
 ![](/img/tutorial/pf-visualize-output.png)
