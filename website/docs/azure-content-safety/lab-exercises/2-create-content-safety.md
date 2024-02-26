@@ -48,18 +48,24 @@ az configure --defaults group=<resource-group-name>
 :::warning If you DO NOT Azure OpenAI available in your subscription, run the following command. Otherwise, use the command in the next step.
 :::
 
-6. Use if you **DO NOT HAVE Azure OpenAI** available in your subscription, run: 
-
-```shell
-az deployment group create --name rai-workshop --template-file no-openai/main.bicep 
-```
-**NOTE**:  You will receive an OpenAI error if you do not have OpenAI in your subscription.  
-
-Otherwise, if you **HAVE Azure OpenAI** available in your subscription, run: 
+6. If you **HAVE Azure OpenAI** available in your subscription, run the following command to create your Azure OpenAI and Azure content safety resources:
 
 ```shell
 az deployment group create --name rai-workshop --template-file use-openai/main.bicep 
 ```
+
+**NOTE**: Use only lowercase letters (8 - 20 characters long) for the *Azure OpenAI* or *Azure Content Safety* and . **DO NOT** use numbers or special characters.  Use unique names to make sure the name does not match another instance name.  Here's an example:
+
+![](/img/tutorial/bicep-param-cs.png)
+
+
+Otherwise, if you **DO NOT HAVE Azure OpenAI** available in your subscription, run the following command to create your Azure content safety resources:
+
+```shell
+az deployment group create --name rai-workshop --template-file no-openai/main.bicep 
+```
+
+
 
 7. See the environment variables for your resources.
 ```shell
