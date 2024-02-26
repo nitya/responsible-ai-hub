@@ -72,7 +72,10 @@ az configure --defaults group=<resource-group-name>
 az deployment group create --name rai-workshop --template-file main.bicep
 ```
 
-NOTE: For **AzureMLname**, use only lowercase letters.  For example, *amlwsyourfirstname*.  **DO NOT** use numbers or special characters.  
+NOTE: For **AzureMLname**, use only lowercase letters (6 - 8 character longer).    **DO NOT** use numbers or special characters.  Use unique names to make sure the name done not match another instance name.  Here's an example:
+
+![](img/tutorial/bicep-param-pf.png)
+
 
 7. See the environment variables for your resources.
 ```shell
