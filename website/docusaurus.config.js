@@ -193,7 +193,7 @@ const config = {
             to: 'https://discord.gg/yrTeVQwpWm',
           },
           {
-            label: "Privacy Statement ",
+            label: "Privacy",
             to: "https://go.microsoft.com/fwlink/?LinkId=521839",
           },
           {
