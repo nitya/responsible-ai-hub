@@ -197,6 +197,10 @@ const config = {
             to: "https://go.microsoft.com/fwlink/?LinkId=521839",
           },
           {
+            label: 'Consumer Health Privacy',
+            to: 'https://go.microsoft.com/fwlink/?linkid=2259814',
+          },
+          {
             label: `© ${new Date().getFullYear()} Microsoft`,
             to: "https://microsoft.com",
           },
