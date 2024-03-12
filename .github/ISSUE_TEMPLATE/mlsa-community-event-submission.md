@@ -3,7 +3,7 @@ name: MLSA Community Event Submission
 about: Submit a new Microsoft Learn Student Ambassador Event for our Calendar
 title: "[EVENT FOR CALENDAR] MLSA Event"
 labels: mlsa-event
-assignees: nitya, ruyakubu
+assignees: ruyakubu
 
 ---
 
