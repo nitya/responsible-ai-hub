@@ -30,7 +30,7 @@ This will generate a new **Index Lookup** section at the bottom of the flow.
 4.	Click the **Add** button
 5.  Click on the **mlindex-content** textbox.  This will option a new window pane.
 
-![](/img/tutorial/select-mlindex.png)
+![](/img/tutorial/select-mlidex.png)
 
 6.  Select the **MLIndex file from path** option for the **index_type**.
 7.  For **mlindex_path**, copy and paste the Datastore URI you retrieve earlier for the vector index (e.g. `azureml://subscriptions/...` ).
