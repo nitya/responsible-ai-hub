@@ -9,7 +9,7 @@ In the precise exercise you create a vector index and train to search for your v
 
 We'll be using the following tools:
 -	**Embedding**: converts text to number tokens.  Store to token in vector arrays based on then relation to each other.
--	**Vector index lookup**: Takes user input question and queries the vector index with the closest answers to the question.
+-	**Index lookup**: Takes user input question and queries the vector index with the closest answers to the question.
 -	**Prompt**: enters user to add rules on the response show be sent to user
 -	**LLM**: provides the LLM prompt or LLM model response to user
  
