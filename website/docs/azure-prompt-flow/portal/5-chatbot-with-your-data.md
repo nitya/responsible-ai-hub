@@ -5,7 +5,7 @@ sidebar_position: 5
 slug: /chatbot-with-your-data
 ---
 
-In the precise exercise you create a vector index and train to search for your vector embeddings.  In this exercise, you’ll be expanding the Chat pipeline logic to take the user question and convert to numeric embeddings.  Then we’ll use the numeric embedding to search the numeric vector.  Next, we’ll use the prompt to set rules with restrictions and how to display the data to the user.
+In the precise exercise you create a vector index and train to search for your vector embeddings.  In this exercise, you’ll be expanding the Chat pipeline logic to take the user question .  Then we’ll use the question to search the numeric vector.  Next, we’ll use the prompt to set rules with restrictions and how to display the data to the user.
 
 We'll be using the following tools:
 -	**Embedding**: converts text to number tokens.  Store to token in vector arrays based on then relation to each other.
@@ -18,43 +18,39 @@ We'll be using the following tools:
 
 ![](/img/tutorial/00-close-chat-window.png)
 
-*Add Embedding tool*
-
-3.	On the Flow toolbar, click on **More tools**.  Then select the **Embedding tool**.
-
-![](/img/tutorial/flow-tools.png)
- 
-4.	Enter **Name** for the node (e.g. embed_question).
-5.	Click the **Add** button.
-6.	Select the **AzureOpenAIconnection** name you created earlier.
-7.	Select **Text-embedding-ada-002** deployment name you created earlier
-8.	For **Input**, select `${inputs.question}`.  This should create a node under the input node.
-
-![](/img/tutorial/search-vector.png)
- 
-9.	Click the **Save** button
 
 *Add Vector Index Lookup tool*
 
-10.	On the Flow toolbar, click on **More tools**.  Then select the Vector Index Lookup tool.  This will generate a new **Vector Index Lookup** section at the bottom of the flow.
-11.	Enter **Name** for the node (e.g. search_vector_index).
-12.	Click the **Add** button
-13.	For **Path**, copy and paste the Datastore URI you retrieve earlier for the vector index (e.g. `azureml://subscriptions/...` ).
-14.	Select the embedding output as the **query** field (e.g. `${embed_question.output}` ).
-15.	Leave default value for **top_k**.
+2.	On the Flow toolbar, click on **More tools**.  Then select the Index Lookup tool.  
+
+![](/img/tutorial/more-tools.png)
+
+This will generate a new **Index Lookup** section at the bottom of the flow.
+3.	Enter **Name** for the node (e.g. search_vector_index).
+4.	Click the **Add** button
+5.  Click on the **mlindex-content** textbox.  This will option a new window pane.
+
+![](/img/tutorial/select-mlindex.png)
+
+6.  Select the **MLIndex file from path** option for the **index_type**.
+7.  For **mlindex_path**, copy and paste the Datastore URI you retrieve earlier for the vector index (e.g. `azureml://subscriptions/...` ).
+8.  Click the **Save** button.
+9.  Select the input question as the **query** field (e.g. `${inputs.question}` ).
+10. Select the **Vector** option for the **query_type** field.
+11.	Leave default value for **top_k**.
 
 ![](/img/tutorial/search-vector.png)
  
-16.	Click the **Save** button
+12.	Click the **Save** button
 
 *Add Prompt tool*
 
-17.	On the Flow toolbar, click on **Prompt** tool. This will generate a new Prompt section at the bottom of the flow.
+13.	On the Flow toolbar, click on **Prompt** tool. This will generate a new Prompt section at the bottom of the flow.
 
 ![](/img/tutorial/00-prompt-tool.png)
 
-18.	Enter a **Name** for the node (e.g. generate_prompt).  Then click the **Add** button.
-19.	Copy the following text in the Prompt textbox:
+14.	Enter a **Name** for the node (e.g. generate_prompt).  Then click the **Add** button.
+15.	Copy the following text in the Prompt textbox:
 ```shell
 system:
 You are an AI system designed to answer questions. When presented with a scenario, you must reply with accuracy to inquirers' inquiries.  If there is ever a situation where you are unsure of the answer, simply respond with "I don't know".    
@@ -71,32 +67,32 @@ assistant:
 user:
 {{question}}
 ```
-20.	Click the **Validate and parse input** button to generate the input fields for the prompt.
-21.	Select the `${inputs.chat_history}` for **chat_history**
-22.	For **contexts**, select `${Search_Vector_Index.output}`.
-23.	Select `${inputs.question}` for the **question** field.
+16.	Click the **Validate and parse input** button to generate the input fields for the prompt.
+17.	Select the `${inputs.chat_history}` for **chat_history**
+18.	For **contexts**, select `${search_vector_index.output}`.
+19.	Select `${inputs.question}` for the **question** field.
  
 ![](/img/tutorial/output_prompt.png)
 
-24.	Click on the **Save** button
-25.	Click on the **chat** node and drag it below the **generate_prompt** node
+20.	Click on the **Save** button
+21.	Click on the **chat** node and drag it below the **generate_prompt** node
 
 ![](/img/tutorial/chat-node.png)
  
-26.	Under the **Flow** pane, scroll up to the **chat** section.  Delete the existing text in the **Prompt** textbox.  
+22.	Under the **Flow** pane, scroll up to the **chat** section.  Delete the existing text in the **Prompt** textbox.  
  
 ![](/img/tutorial/chat-node-input.png)
 
 *Update Chat node*
 
-27.	Copy and paste the following text in the Prompt textbox.  This specifies the output to display to the user:
+23.	Copy and paste the following text in the Prompt textbox.  This specifies the output to display to the user:
 
 ```shell
 {{prompt_response}}
 ```
-28.	Click on the **Validate and parse input** button to regenerate a new input field. Prompt Flow will generate the text metadata you specified in the Prompt textbox.
-29.	In the **Prompt_response** value, select `${generate_prompt.output}`.
-30.	Click on the **Save** button
+24.	Click on the **Validate and parse input** button to regenerate a new input field. Prompt Flow will generate the text metadata you specified in the Prompt textbox.
+25.	In the **Prompt_response** value, select `${generate_prompt.output}`.
+26.	Click on the **Save** button
 
 ## Test Chat with your own data
 
