@@ -1,6 +1,6 @@
 # About This Website
 
-[![Deploy to GitHub Pages](https://github.com/Azure/responsible-ai-hub/actions/workflows/deploy-ghpages.yml/badge.svg)](https://github.com/Azure/responsible-ai-hub/actions/workflows/deploy-ghpages.yml)
+[![Deploy to GitHub Pages](https://github.com/nitya/responsible-ai-hub/actions/workflows/deploy-ghpages.yml/badge.svg)](https://github.com/nitya/responsible-ai-hub/actions/workflows/deploy-ghpages.yml)
 
 
 ## About This Site
