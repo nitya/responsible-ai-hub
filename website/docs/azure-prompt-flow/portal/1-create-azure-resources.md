@@ -11,7 +11,7 @@ As you work on creating Flows, it may have dependencies, services or external re
 
 To get started, you can use a pre-built development environment. **Click the button below** to open the repo in GitHub Codespaces, and then continue the readme!
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/rai-prompt-flow-workshop?quickstart=1)  
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nitya/rai-prompt-flow-workshop?quickstart=1)  
 
 This will launch a Codespaces environment with all the dependencies installed.  Once the environment is ready, you can run the following commands to create the Azure resources and run the sample code.
 
